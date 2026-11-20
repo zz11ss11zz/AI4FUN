@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="./">
+  <title>AI4FUN · 让好奇心，有地方玩</title>
+  <meta name="description" content="精选值得体验的 AI 互动作品、游戏、影像与音乐。找到原作者、体验入口和制作方法，收藏下一次创作的灵感。">
+  <meta name="theme-color" content="#edf3ff">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AI4FUN · 让好奇心，有地方玩">
+  <meta property="og:description" content="发现、体验、收藏。一起看看人们用 AI 做出了什么。">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/rss+xml" title="AI4FUN 最新收录" href="feed.xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#explore">跳到作品目录</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="./" aria-label="AI4FUN 首页"><img src="assets/brand.svg" width="34" height="34" alt=""><span>ai4<span class="brand-fun">fun</span><span class="brand-dot">.</span></span></a>
+      <nav class="primary-nav" aria-label="主导航">
+        <a href="#explore" data-nav="explore" class="active">发现作品</a>
+        <a href="#collections" data-nav="collections">灵感专题</a>
+        <a href="?view=sources" data-nav="sources">信源库</a>
+      </nav>
+      <div class="header-actions">
+        <button class="bookmark-nav" id="saved-nav" aria-label="我的收藏"><span data-icon="bookmark"></span><span class="desktop-label">收藏</span><span class="saved-count" id="saved-count">0</span></button>
+        <button class="icon-button theme-toggle" id="theme-toggle" aria-label="切换深色模式"><span data-icon="moon"></span></button>
+        <button class="button button-dark button-small" data-open="submit"><span data-icon="plus"></span><span>推荐作品</span></button>
+      </div>
+    </div>
+  </header>
+  <main id="main-content">
+    <div id="discover-view">
+      <section class="hero shell" aria-labelledby="hero-heading">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="tiny-spark">✳</span> THE INTERNET CAN STILL BE FUN</div>
+          <h1 id="hero-heading">让好奇心，<br><span>有地方玩<span class="title-period">。</span></span></h1>
+          <p class="hero-description">AI 不只有效率。<br>来玩一个游戏，看一段奇想，<br>找到下一次创作的灵感。</p>
+          <div class="hero-actions"><a href="#explore" class="button button-primary">探索作品<span data-icon="grid"></span></a><button class="button button-quiet" id="hero-random"><span data-icon="shuffle"></span>随便逛逛</button></div>
+          <div class="hero-footnote"><span class="overlapping-circles"><i>玩</i><i>看</i><i>做</i></span><p><strong id="hero-total">精选作品</strong><span>每一份灵感，都能找到出处</span></p></div>
+        </div>
+        <div class="hero-stage" id="hero-stage" aria-label="本期精选作品">
+          <div class="stage-orbit orbit-one"></div><div class="stage-orbit orbit-two"></div>
+          <span class="stage-spark spark-one">✳</span><span class="stage-spark spark-two">✦</span>
+          <div id="spotlight" class="spotlight"><div class="loading-placeholder">正在打开灵感盒子…</div></div>
+          <div class="floating-note"><span data-icon="sparkles"></span>想法，可以长这样</div>
+          <div class="spotlight-controls"><span id="spotlight-counter">01 / 03</span><button class="icon-button" id="spotlight-prev" aria-label="上一个精选作品"><span data-icon="chevron-left"></span></button><button class="icon-button" id="spotlight-next" aria-label="下一个精选作品"><span data-icon="chevron-right"></span></button></div>
+        </div>
+      </section>
+      <section class="editorial-strip" aria-label="收录原则"><div class="shell strip-inner"><span><span data-icon="compass"></span>好玩，才值得点开</span><span><span data-icon="fingerprint"></span>保留原作者与出处</span><span><span data-icon="layers"></span>看见 AI 参与的过程</span><button data-open="about">我们的选品标准<span data-icon="info"></span></button></div></section>
+      <section class="shell collection-section" id="collections" aria-labelledby="collections-heading"><div class="section-heading"><div><div class="eyebrow">FOLLOW YOUR CURIOSITY</div><h2 id="collections-heading">从一个好奇心开始</h2></div><span class="section-aside">挑一条路线，随心探索</span></div><div class="collection-grid" id="collection-grid"></div></section>
+    </div>
+    <section class="shell explore-section" id="explore" aria-labelledby="explore-heading">
+      <div class="section-heading explore-heading"><div><div class="eyebrow" id="explore-eyebrow">THE GOOD STUFF</div><h2 id="explore-heading">值得点开的作品</h2><p class="section-subtitle" id="explore-subtitle">新的创意，也有值得重访的经典。</p></div><div class="directory-tools"><button class="text-button hidden" id="export-saved"><span data-icon="download"></span>导出收藏</button><button class="text-button hidden" id="import-saved"><span data-icon="upload"></span>导入</button><input type="file" id="import-file" class="hidden" accept="application/json,.json"><span class="result-count" id="result-count" aria-live="polite"></span></div></div>
+      <div class="collection-banner hidden" id="collection-banner"></div>
+      <div class="directory-toolbar"><div class="category-tabs" role="group" aria-label="作品类型"><button class="category-tab active" data-category="all">全部<span data-count="all"></span></button><button class="category-tab" data-category="interactive"><span data-icon="cursor"></span>互动<span data-count="interactive"></span></button><button class="category-tab" data-category="game"><span data-icon="gamepad"></span>游戏<span data-count="game"></span></button><button class="category-tab" data-category="film"><span data-icon="play"></span>影像<span data-count="film"></span></button><button class="category-tab" data-category="music"><span data-icon="music"></span>音乐<span data-count="music"></span></button></div><label class="search-box"><span data-icon="search"></span><input id="search-input" type="search" placeholder="搜作品、作者、工具或灵感…" autocomplete="off" aria-label="搜索作品"><kbd>/</kbd></label></div>
+      <div class="filter-row"><div class="quick-filters" role="group" aria-label="体验与制作条件"><button class="filter-chip" data-filter="free" aria-pressed="false">免费体验</button><button class="filter-chip" data-filter="no-login" aria-pressed="false">无需登录</button><button class="filter-chip" data-filter="code" aria-pressed="false">有源码</button><button class="filter-chip" data-filter="made" aria-pressed="false">AI 辅助制作</button><button class="filter-chip" data-filter="mobile" aria-pressed="false">手机可体验</button></div><label class="sort-control"><span data-icon="sort"></span><select id="sort-select" aria-label="作品排序"><option value="curated">编辑精选</option><option value="newest">作品时间</option><option value="recent">最近收录</option><option value="name">名称 A—Z</option></select><span data-icon="chevron-down"></span></label></div>
+      <div class="active-filters hidden" id="active-filters"></div>
+      <div class="project-grid" id="project-grid" aria-live="polite" aria-busy="true"></div>
+      <div class="empty-state hidden" id="empty-state"><span class="empty-illustration">✳</span><h3 id="empty-title">这条小路，暂时还没有作品</h3><p id="empty-description">试试其他关键词，或者放宽筛选条件。</p><button class="button button-primary" id="clear-filters">查看全部作品</button></div>
+      <div class="catalog-end" id="catalog-end"><span class="end-line"></span><span>好奇心没有尽头，精选慢慢更新</span><span class="end-line"></span></div>
+    </section>
+    <section class="shell sources-section hidden" id="sources-view" aria-labelledby="sources-heading"><div class="section-heading"><div><div class="eyebrow">WHERE DISCOVERY BEGINS</div><h1 id="sources-heading">好作品，从好信源开始。</h1><p class="section-subtitle">创作者、官方展示与开源社区。每个入口都有明确的收录范围。</p></div><button class="button button-primary" data-open="source-submit"><span data-icon="plus"></span>推荐信源</button></div><div class="sources-notice"><span data-icon="info"></span><p>这些是已登记的发现入口。当前按需核对、人工精选；登记信源不代表自动收录其中的全部内容。</p></div><div id="sources-grid" class="sources-grid"></div></section>
+    <section class="shell contribute-section"><div class="contribute-art" aria-hidden="true">✳<span>+</span></div><div class="contribute-copy"><div class="eyebrow">GOOD FINDS DESERVE COMPANY</div><h2>遇到了一个好玩的？</h2><p>一个链接，一点推荐理由。<br>让下一位好奇的人，也能遇见它。</p></div><button class="button button-dark" data-open="submit">推荐给 AI4FUN<span data-icon="plus"></span></button></section>
+  </main>
+  <footer class="site-footer shell"><div class="footer-top"><a class="wordmark" href="./"><img src="assets/brand.svg" width="30" height="30" alt=""><span>ai4<span class="brand-fun">fun</span><span class="brand-dot">.</span></span></a><p>为好奇心，留一点空间。</p><div class="footer-links"><button data-open="about">关于与收录标准</button><a href="https://github.com/zz11ss11zz/ai4fun" target="_blank" rel="noopener noreferrer">GitHub</a><a href="feed.xml" target="_blank" rel="noopener">RSS</a></div></div><div class="footer-bottom"><span>© 2026 AI4FUN · 作品归原作者所有</span><span>原创编辑插画用于分类展示，作品实貌以原作为准。</span><span>MADE FOR CURIOUS HUMANS <span class="footer-star">✳</span></span></div></footer>
+  <dialog id="project-dialog" class="project-dialog" aria-labelledby="detail-title"><div id="project-detail"></div><button class="dialog-close icon-button" data-close="project-dialog" aria-label="关闭作品详情"><span data-icon="x"></span></button></dialog>
+  <dialog id="info-dialog" class="info-dialog" aria-labelledby="info-title"><div id="info-content"></div><button class="dialog-close icon-button" data-close="info-dialog" aria-label="关闭窗口"><span data-icon="x"></span></button></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <noscript><section class="shell noscript-message"><h2>精选作品目录</h2><p>启用 JavaScript 可搜索、筛选和收藏。你也可以直接浏览下面的作品档案。</p><!-- STATIC_CATALOG --></section></noscript>
+</body>
+</html>

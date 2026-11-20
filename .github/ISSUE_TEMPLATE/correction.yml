@@ -1,0 +1,29 @@
+name: 纠错或失效链接
+description: 报告事实错误、归属问题、失效入口或版权问题。
+title: "[纠错] "
+body:
+  - type: input
+    id: project
+    attributes:
+      label: 作品名称或页面地址
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 问题类型
+      options:
+        - 入口失效
+        - 信息不准确
+        - 作者归属或版权
+        - 费用、账号或设备要求变化
+        - 页面或功能问题
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 你观察到了什么？
+      description: 尽量提供日期、设备和公开证据链接。请勿在公开 Issue 上传个人敏感信息。
+    validations:
+      required: true

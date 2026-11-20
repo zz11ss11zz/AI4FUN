@@ -1,0 +1,63 @@
+name: 推荐一个作品
+description: 分享一个具体的 AI 游戏、互动、影片或音乐作品。
+title: "[作品] "
+body:
+  - type: input
+    id: title
+    attributes:
+      label: 作品名称
+    validations:
+      required: true
+  - type: input
+    id: original
+    attributes:
+      label: 原作或体验地址
+      description: 请优先提供作者发布的 HTTPS 链接。
+    validations:
+      required: true
+  - type: input
+    id: creator
+    attributes:
+      label: 作者与出处
+      placeholder: 作者姓名 / 主页 / 最初发布帖
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 作品类型
+      options:
+        - 互动与界面
+        - 游戏
+        - 影像
+        - 音乐
+    validations:
+      required: true
+  - type: textarea
+    id: ai
+    attributes:
+      label: AI 参与了什么？
+      description: 附作者说明、源码 README 或制作过程；没有公开说明的部分写“不确定”。
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 哪里值得一试？
+      description: 描述具体体验，以及你知道的账号、费用、设备或地区要求。
+    validations:
+      required: true
+  - type: input
+    id: relationship
+    attributes:
+      label: 你与作品的关系（可选）
+      placeholder: 作者 / 使用者 / 路过发现；商业关联请注明
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我提供的是可以公开访问的资料，没有上传秘密信息或未经允许转载的完整素材。
+          required: true
+        - label: 我理解投稿是候选，收录需要核对来源与体验条件。
+          required: true

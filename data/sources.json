@@ -1,0 +1,68 @@
+[
+  {
+    "id": "neal-fun",
+    "name": "Neal.fun",
+    "url": "https://neal.fun/",
+    "type": "creator",
+    "language": "en",
+    "status": "manual",
+    "scope": ["game", "interactive"],
+    "description": "Neal Agarwal 的原作入口。逐项核对 AI 参与说明，普通网页作品不会仅因出现在这里就被标为 AI 制作。",
+    "addedAt": "2026-11-20"
+  },
+  {
+    "id": "google-labs",
+    "name": "Google Labs",
+    "url": "https://labs.google/",
+    "type": "platform",
+    "language": "multi",
+    "status": "manual",
+    "scope": ["interactive", "game", "music"],
+    "description": "Google 官方实验入口。筛选可明确体验的创意项目，并分别记录地域、账号与设备要求。",
+    "addedAt": "2026-11-20"
+  },
+  {
+    "id": "websim",
+    "name": "Websim",
+    "url": "https://websim.com/",
+    "type": "platform",
+    "language": "en",
+    "status": "manual",
+    "scope": ["game", "interactive"],
+    "description": "浏览器游戏与互动作品社区。以具体作品和创作者为收录单位，社区热度不直接等同于本站推荐。",
+    "addedAt": "2026-11-20"
+  },
+  {
+    "id": "scenario-explorations",
+    "name": "Scenario Explorations",
+    "url": "https://www.scenario.com/explorations/",
+    "type": "platform",
+    "language": "en",
+    "status": "manual",
+    "scope": ["game", "interactive", "film", "music"],
+    "description": "Scenario 官方创意作品与制作流程。优先选择能体验、能观看，且披露工具链与制作过程的具体案例。",
+    "addedAt": "2026-11-20"
+  },
+  {
+    "id": "runway-ai-festival",
+    "name": "Runway AI Festival",
+    "url": "https://aif.runwayml.com/",
+    "type": "festival",
+    "language": "en",
+    "status": "manual",
+    "scope": ["film", "interactive", "game"],
+    "description": "官方评选与放映入口。核对影片作者、年份和观看地址，不以获奖代替对具体作品的介绍。",
+    "addedAt": "2026-11-20"
+  },
+  {
+    "id": "ai-town-repository",
+    "name": "AI Town · 官方仓库",
+    "url": "https://github.com/a16z-infra/ai-town",
+    "type": "repository",
+    "language": "en",
+    "status": "manual",
+    "scope": ["interactive", "game"],
+    "description": "AI 小镇的项目说明、源码与更新。区分公开演示和需要自行部署的能力，不把部署说明当作即时试玩入口。",
+    "addedAt": "2026-11-20"
+  }
+]

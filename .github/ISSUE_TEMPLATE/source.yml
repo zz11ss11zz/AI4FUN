@@ -1,0 +1,38 @@
+name: 推荐一个信源
+description: 提供值得持续查看的创作者主页、社区、作品库或官方栏目。
+title: "[信源] "
+body:
+  - type: input
+    id: name
+    attributes:
+      label: 信源名称
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 信源网址
+      placeholder: https://
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 来源类型
+      options:
+        - 创作者主页
+        - 平台或社区
+        - 电影节或评选
+        - 官方代码仓库
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: 为什么值得跟踪？
+      description: 写明内容类型、语言，以及两三个代表作品。有 RSS 或公开接口时也可附上。
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "来源登记不代表已经开启自动抓取。首版通过手动审阅维护，每个作品仍需单独核对。"

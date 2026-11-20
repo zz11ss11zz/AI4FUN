@@ -1,0 +1,1165 @@
+[
+  {
+    "id": "oh-peppers",
+    "title": "Oh, Peppers!",
+    "subtitle": "一颗辣椒，逃离三十间厨房",
+    "description": "一颗不想变成晚餐的青辣椒，在咖喱厨房里跳跃、滑墙和荡绳。作者披露用 Codex 辅助代码、美术与声音，并通过逐轮提示打磨关卡；支持浏览器与手机横屏操作。",
+    "category": "game",
+    "creator": {
+      "name": "Agent 57951",
+      "url": "https://0xe25f.itch.io/"
+    },
+    "year": 2026,
+    "publishedAt": "2026-09-12",
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "free",
+      "login": "none",
+      "device": "both",
+      "mode": "play"
+    },
+    "aiRole": [
+      "code",
+      "visual",
+      "audio"
+    ],
+    "tools": [
+      "Codex Astra",
+      "LittleJS"
+    ],
+    "tags": [
+      "AI辅助制作",
+      "平台跳跃",
+      "像素风",
+      "2026"
+    ],
+    "links": {
+      "primary": "https://0xe25f.itch.io/oh-peppers",
+      "source": "https://0xe25f.itch.io/oh-peppers",
+      "code": null,
+      "process": "https://itch.io/jam/all-tools-allowed-2/rate/5002411"
+    },
+    "evidence": [
+      {
+        "label": "作者作品页",
+        "url": "https://0xe25f.itch.io/oh-peppers",
+        "note": "作者页的公开记录显示发布于 2026-09-12 23:01 UTC，署名 Agent 57951；列明三十关、键盘/触屏操作与 AI 代码/图像/声音披露。精确时间取自该官方页面的索引快照。"
+      },
+      {
+        "label": "作者制作过程",
+        "url": "https://itch.io/jam/all-tools-allowed-2/rate/5002411",
+        "note": "作者说明使用 Codex Astra、LittleJS 与逐轮提示完成制作。"
+      },
+      {
+        "label": "作者主页与开发日志",
+        "url": "https://0xe25f.itch.io/oh-peppers/devlog/1661851/oh-peppers-thirty-kitchens-one-escapee-chilli-pepper",
+        "note": "开发日志与作者主页均署名 Agent 57951；日志说明音效由程序合成，不据此声称使用了独立音频生成模型。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "复核作者主页、作品公开记录、AI 披露与参赛制作说明；署名与来源一致。AI 使用属于作者自述，未运行游戏或审计制作过程。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "制作过程与 AI 参与环节都有作者公开说明，能从成品回看开发路径。",
+    "firstStep": "进入原作，方向键移动、空格跳跃；手机请横屏。",
+    "caveat": "英文界面；越往后的关卡越考验操作。设备支持来自作者说明，尚未实机试玩。",
+    "featured": true,
+    "collectionIds": [
+      "five-minutes",
+      "made-with-ai"
+    ],
+    "visual": "pixel",
+    "accent": "#d6f26f",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "收录并核对官方说明"
+      }
+    ]
+  },
+  {
+    "id": "reef-relay",
+    "title": "Reef Relay",
+    "subtitle": "转动洋流，把小鱼送回家",
+    "description": "点击黄铜箭头改变洋流，让小鱼收集金色种子后回到海底花园。七个无计时关卡支持撤销与提示；发布账号声明由 AI 代理设计和编写，游玩时不调用 AI 服务。",
+    "category": "game",
+    "creator": {
+      "name": "alvinhastra-web",
+      "url": "https://alvinhastra-web.itch.io/"
+    },
+    "year": 2026,
+    "publishedAt": "2026-09-08",
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "free",
+      "login": "none",
+      "device": "both",
+      "mode": "play"
+    },
+    "aiRole": [
+      "code"
+    ],
+    "tools": [
+      "Codex Astra",
+      "Web Audio"
+    ],
+    "tags": [
+      "AI辅助制作",
+      "轻解谜",
+      "无计时",
+      "2026"
+    ],
+    "links": {
+      "primary": "https://alvinhastra-web.itch.io/reef-relay",
+      "source": "https://alvinhastra-web.itch.io/reef-relay",
+      "code": null,
+      "process": "https://alvinhastra-web.itch.io/reef-relay"
+    },
+    "evidence": [
+      {
+        "label": "作者作品页与 AI 披露",
+        "url": "https://alvinhastra-web.itch.io/reef-relay",
+        "note": "官方页面索引显示发布于 2026-09-08 09:22 UTC，署名 alvinhastra-web；正文确认 2026 年 9 月首发、无需账号，以及 AI 代理参与设计与编写。"
+      },
+      {
+        "label": "平台参赛页与制作披露",
+        "url": "https://itch.io/jam/uplifting-game-jam-9/rate/4986358",
+        "note": "参赛页同样署名 alvinhastra-web，说明 Codex（Astra）参与设计与编程、Kenney 素材及程序合成音效；不将发布账号等同于人类独立作者。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "复核发布账号主页、作品公开记录与参赛披露；日期和署名相互对应。AI 创作方式属于发布者声明，未试玩或审计代码。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "把 AI 写出的作品与运行时调用 AI 的作品分开看，这个小型解谜是清楚的例子。",
+    "firstStep": "点击箭头旋转方向，再选择 Release the current 放流。",
+    "caveat": "图像素材来自 Kenney 的 CC0 鱼类素材包，并非 AI 生成；进度保存依赖浏览器存储。",
+    "featured": true,
+    "collectionIds": [
+      "five-minutes",
+      "made-with-ai"
+    ],
+    "visual": "garden",
+    "accent": "#64c4b7",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "收录并核对官方说明"
+      }
+    ]
+  },
+  {
+    "id": "ancestra",
+    "title": "ANCESTRA",
+    "subtitle": "在真实表演与生成影像之间",
+    "description": "Eliza McNitt 执导的八分钟短片，以母亲面对新生儿健康危机的经历展开，将实拍表演与 Veo 生成影像结合。工作室公开说明了团队如何处理角色、镜头运动与画面衔接。",
+    "category": "film",
+    "creator": {
+      "name": "Eliza McNitt / Primordial Soup",
+      "url": "https://www.primordialsoup.ai/projects/ancestra"
+    },
+    "year": 2025,
+    "publishedAt": "2025-06-13",
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "unknown",
+      "login": "unknown",
+      "device": "unknown",
+      "mode": "watch"
+    },
+    "aiRole": [
+      "visual"
+    ],
+    "tools": [
+      "Veo",
+      "Imagen",
+      "Gemini"
+    ],
+    "tags": [
+      "AI辅助制作",
+      "实拍融合",
+      "短片",
+      "2025"
+    ],
+    "links": {
+      "primary": "https://www.primordialsoup.ai/projects/ancestra",
+      "source": "https://www.primordialsoup.ai/projects/ancestra",
+      "code": null,
+      "process": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/ancestra-behind-the-scenes/"
+    },
+    "evidence": [
+      {
+        "label": "制作方作品页",
+        "url": "https://www.primordialsoup.ai/projects/ancestra",
+        "note": "确认导演、年份、片长，以及实拍团队和生成影像的协作。"
+      },
+      {
+        "label": "合作方幕后说明",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/ancestra-behind-the-scenes/",
+        "note": "2025 年 6 月 13 日公布 Tribeca 首映，说明 Gemini、Imagen、Veo 在制作中的分工。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "核对工作室作品页及合作方幕后文章；未核验完整影片播放或地区限制。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "可以具体看见生成影像如何进入有演员、摄影和后期团队的电影制作流程。",
+    "firstStep": "打开制作方作品页，再查看幕后说明中的制作片段。",
+    "caveat": "作品含新生儿健康危机情节；发行与完整观看入口以制作方页面为准。",
+    "featured": true,
+    "collectionIds": [
+      "made-with-ai"
+    ],
+    "visual": "film",
+    "accent": "#baa9ef",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "收录并核对官方说明"
+      }
+    ]
+  },
+  {
+    "id": "air-head",
+    "title": "Air Head",
+    "subtitle": "如果你的脑袋是一颗气球",
+    "description": "shy kids 用 Sora 创作的超现实短片，让一位气球脑袋的主角走进日常生活。官方展示同时说明，艺术家自行剪辑并可修改模型生成的素材，成片包含明确的人类创作决策。",
+    "category": "film",
+    "creator": {
+      "name": "shy kids",
+      "url": "https://openai.com/index/sora-first-impressions/"
+    },
+    "year": 2024,
+    "publishedAt": null,
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "free",
+      "login": "unknown",
+      "device": "unknown",
+      "mode": "watch"
+    },
+    "aiRole": [
+      "visual"
+    ],
+    "tools": [
+      "Sora"
+    ],
+    "tags": [
+      "AI辅助制作",
+      "超现实",
+      "短片",
+      "2024"
+    ],
+    "links": {
+      "primary": "https://openai.com/index/sora-first-impressions/",
+      "source": "https://openai.com/index/sora-first-impressions/",
+      "code": null,
+      "process": "https://openai.com/index/sora-first-impressions/"
+    },
+    "evidence": [
+      {
+        "label": "官方作品展示与创作者说明",
+        "url": "https://openai.com/index/sora-first-impressions/",
+        "note": "2024 年 3 月 25 日展示 Air Head，列出 shy kids 团队与导演 Walter Woodman；说明生成素材由艺术家剪辑处理。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "核对官方作品展示与署名；未独立完整观看影片或测量播放时长。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "用一个简单而鲜明的人物设定，把生成影像的超现实能力变成叙事。",
+    "firstStep": "打开展示页，找到 shy kids – Air Head 章节观看。",
+    "caveat": "这是模型提供方的作品展示页；生成视频之外的编导与剪辑由创作者完成。",
+    "featured": true,
+    "collectionIds": [
+      "five-minutes",
+      "made-with-ai"
+    ],
+    "visual": "film",
+    "accent": "#f1d95b",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "收录并核对官方说明"
+      }
+    ]
+  },
+  {
+    "id": "infinite-craft",
+    "title": "Infinite Craft",
+    "subtitle": "从四种元素，拼出意想不到的世界",
+    "description": "把水、火、风、土拖到一起，得到新元素，再继续组合。Neal Agarwal 把语言模型生成的联想变成一场探索游戏：乐趣来自发现古怪的组合结果，而不是遵循真实世界的化学规则。",
+    "category": "game",
+    "creator": {
+      "name": "Neal Agarwal",
+      "url": "https://neal.fun/"
+    },
+    "year": 2024,
+    "publishedAt": null,
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "free",
+      "login": "none",
+      "device": "both",
+      "mode": "play"
+    },
+    "aiRole": [
+      "runtime"
+    ],
+    "tools": [],
+    "tags": [
+      "AI驱动体验",
+      "元素合成",
+      "开放探索",
+      "2024"
+    ],
+    "links": {
+      "primary": "https://neal.fun/infinite-craft/",
+      "source": "https://neal.fun/infinite-craft/",
+      "code": null,
+      "process": "https://twitter.com/nealagarwal/status/1747284257582506102"
+    },
+    "evidence": [
+      {
+        "label": "作者原作",
+        "url": "https://neal.fun/infinite-craft/",
+        "note": "核对原作入口及四种初始元素。"
+      },
+      {
+        "label": "作者公开开发帖",
+        "url": "https://twitter.com/nealagarwal/status/1747284257582506102",
+        "note": "作者在发布期开发帖中提及 Llama 2；原帖当前访问受限，相关原文由报道保存。"
+      },
+      {
+        "label": "开发帖原文的同期报道",
+        "url": "https://gigazine.net/news/20240201-infinite-craft/",
+        "note": "2024 年 2 月 1 日报道保存作者 1 月 16 日开发帖原文，作为原帖访问受限时的交叉核对；不据此断言当前模型版本。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "核对原作入口；AI 开发历史通过作者原帖及同期保存的引文交叉核对。未试玩或检测当前模型。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "规则极少，却能让生成式 AI 的联想能力直接成为探索机制。",
+    "firstStep": "先把 Water 与 Fire 拖到一起，再用新元素继续组合。",
+    "caveat": "模型结果用于娱乐，不代表事实；未验证当前后端模型，作者开发帖有平台访问限制。",
+    "featured": true,
+    "collectionIds": [
+      "five-minutes"
+    ],
+    "visual": "craft",
+    "accent": "#d1ec6a",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "收录并核对官方说明"
+      }
+    ]
+  },
+  {
+    "id": "nightshoal",
+    "title": "Nightshoal",
+    "subtitle": "白天捕鱼，夜色里寻找归港的路",
+    "description": "驾驶小船探索二十世纪二十年代风格的群岛，白天捕鱼、绘制海图，入夜前返回港口。独立作者披露 AI 辅助代码、美术与声音，并持续发布可下载的桌面演示版本。",
+    "category": "game",
+    "creator": {
+      "name": "ProFactor",
+      "url": "https://profactor.itch.io/"
+    },
+    "year": 2026,
+    "publishedAt": "2026-10-02",
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "unknown",
+      "login": "unknown",
+      "device": "desktop",
+      "mode": "demo"
+    },
+    "aiRole": [
+      "code",
+      "visual",
+      "audio"
+    ],
+    "tools": [
+      "Godot"
+    ],
+    "tags": [
+      "AI辅助制作",
+      "探索",
+      "下载体验",
+      "开发中",
+      "2026"
+    ],
+    "links": {
+      "primary": "https://profactor.itch.io/nightshoal",
+      "source": "https://profactor.itch.io/nightshoal/devlog/1686876/nightshoal-is-on-itch-first-public-build-windows",
+      "code": null,
+      "process": "https://profactor.itch.io/nightshoal/devlog/1773198/what-changed-since-the-4-november-demo"
+    },
+    "evidence": [
+      {
+        "label": "作者作品页的公开记录",
+        "url": "https://profactor.itch.io/nightshoal",
+        "note": "官方页面索引显示发布于 2026-10-02 12:32 UTC，署名 ProFactor；该日期与首个公开版本日志一致。当前正文提取受限。"
+      },
+      {
+        "label": "作者首个公开版本日志",
+        "url": "https://profactor.itch.io/nightshoal/devlog/1686876/nightshoal-is-on-itch-first-public-build-windows",
+        "note": "确认 2026 年 10 月 2 日 Windows 公开版本及 AI 对代码、美术和声音的辅助。"
+      },
+      {
+        "label": "作者 11 月演示版更新",
+        "url": "https://profactor.itch.io/nightshoal/devlog/1773198/what-changed-since-the-4-november-demo",
+        "note": "2026 年 11 月 12 日日志列出 Windows、Mac、Linux 下载包和开发中状态，采用自定价下载。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "复核 ProFactor 作者主页、作品公开记录、首发及 2026-11-12 演示版日志；AI 使用属于作者自述，未下载、安装或试玩。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "有连续的作者开发日志，可以追踪 AI 辅助作品从首次发布到后续修整。",
+    "firstStep": "到作者页面选择对应系统的演示版，下载前查看版本说明。",
+    "caveat": "仍在开发，需下载约数百 MB；下载价格和系统要求以作者页面为准，尚未安装验证。",
+    "featured": false,
+    "collectionIds": [
+      "made-with-ai"
+    ],
+    "visual": "world",
+    "accent": "#91bed6",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "收录并核对官方说明"
+      }
+    ]
+  },
+  {
+    "id": "blob-opera",
+    "title": "Blob Opera",
+    "subtitle": "拖一拖，让四只软团子唱歌剧",
+    "description": "四只彩色软团子组成一支小合唱团。拖动改变音高与元音，机器学习模型负责合声；David Li 与 Google Arts & Culture 把复杂的声乐表现做成了无需乐理门槛的互动乐器。",
+    "category": "music",
+    "creator": {
+      "name": "David Li / Google Arts & Culture",
+      "url": "https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw"
+    },
+    "year": 2020,
+    "publishedAt": null,
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "free",
+      "login": "none",
+      "device": "unknown",
+      "mode": "play"
+    },
+    "aiRole": [
+      "runtime"
+    ],
+    "tools": [
+      "机器学习音频合成"
+    ],
+    "tags": [
+      "经典实验",
+      "音乐互动",
+      "合唱"
+    ],
+    "links": {
+      "primary": "https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw",
+      "source": "https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw",
+      "code": null,
+      "process": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/story-behind-blob-opera-world-tour/"
+    },
+    "evidence": [
+      {
+        "label": "官方实验页",
+        "url": "https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw",
+        "note": "确认 David Li、机器学习生成歌剧声音及互动方式。"
+      },
+      {
+        "label": "官方幕后回顾",
+        "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/story-behind-blob-opera-world-tour/",
+        "note": "2021 年官方回顾明确原作于 2020 年 12 月推出；不把实验页后来的更新日期误作首发。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "核对官方实验说明及上线历史；未运行音频交互。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "身体动作、角色造型和声音反馈紧密对应，几乎不用说明就能理解交互。",
+    "firstStep": "开启声音，按住一只团子向上或向下拖动。",
+    "caveat": "属于 2020 年的经典机器学习互动；当前浏览器音频与设备兼容性未实测。",
+    "featured": true,
+    "collectionIds": [
+      "five-minutes"
+    ],
+    "visual": "sound",
+    "accent": "#bfb3f2",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "收录并核对官方说明"
+      }
+    ]
+  },
+  {
+    "id": "growing-neural-cellular-automata",
+    "title": "Growing Neural Cellular Automata",
+    "subtitle": "擦掉一角，看像素自己长回来",
+    "description": "这篇交互论文把神经细胞自动机直接放进浏览器。擦掉图案的一部分，观察经过训练的局部规则如何重新长出形状；还能切换模型，比较生长、持续与再生行为。",
+    "category": "interactive",
+    "creator": {
+      "name": "Alexander Mordvintsev 等",
+      "url": "https://distill.pub/2020/growing-ca/"
+    },
+    "year": 2020,
+    "publishedAt": "2020-02-11",
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "free",
+      "login": "none",
+      "device": "both",
+      "mode": "play"
+    },
+    "aiRole": [
+      "runtime"
+    ],
+    "tools": [
+      "神经细胞自动机"
+    ],
+    "tags": [
+      "经典实验",
+      "可交互论文",
+      "自组织",
+      "开源"
+    ],
+    "links": {
+      "primary": "https://distill.pub/2020/growing-ca/",
+      "source": "https://distill.pub/2020/growing-ca/",
+      "code": "https://github.com/google-research/self-organising-systems",
+      "process": "https://colab.research.google.com/github/google-research/self-organising-systems/blob/master/notebooks/growing_ca.ipynb"
+    },
+    "evidence": [
+      {
+        "label": "作者交互论文",
+        "url": "https://distill.pub/2020/growing-ca/",
+        "note": "2020 年 2 月 11 日发表，包含点击/触摸擦除与再生演示，并链接实现笔记本。"
+      },
+      {
+        "label": "作者代码与笔记本",
+        "url": "https://github.com/google-research/self-organising-systems",
+        "note": "论文链接的 Google Research 实现；浏览器演示与需要环境的训练笔记本是不同入口。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "核对原论文、交互说明和作者实现入口；未执行训练或浏览器模型。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "一个可擦可长的图案，让抽象的局部学习规则变成可观察的行为。",
+    "firstStep": "在论文顶部点击或触摸图案，擦掉一角观察变化。",
+    "caveat": "这是计算模型演示，并非真实生物生长；运行训练笔记本可能需要额外账号与算力。",
+    "featured": true,
+    "collectionIds": [
+      "five-minutes",
+      "open-source"
+    ],
+    "visual": "pixel",
+    "accent": "#a5d19c",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "收录并核对官方说明"
+      }
+    ]
+  },
+  {
+    "id": "quick-draw",
+    "title": "Quick, Draw!",
+    "subtitle": "二十秒涂鸦，神经网络来猜",
+    "description": "按照提示在二十秒内画出一个物体，看看神经网络能否认出来。这项 Google Creative Lab 经典实验把机器学习变成你画我猜，也公开了大量玩家贡献的涂鸦数据。",
+    "category": "game",
+    "creator": {
+      "name": "Google Creative Lab",
+      "url": "https://quickdraw.withgoogle.com/"
+    },
+    "year": 2016,
+    "publishedAt": null,
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "free",
+      "login": "none",
+      "device": "both",
+      "mode": "play"
+    },
+    "aiRole": [
+      "runtime"
+    ],
+    "tools": [
+      "神经网络"
+    ],
+    "tags": [
+      "经典实验",
+      "你画我猜",
+      "涂鸦"
+    ],
+    "links": {
+      "primary": "https://quickdraw.withgoogle.com/",
+      "source": "https://quickdraw.withgoogle.com/",
+      "code": null,
+      "process": "https://github.com/googlecreativelab/quickdraw-dataset"
+    },
+    "evidence": [
+      {
+        "label": "官方游戏页",
+        "url": "https://quickdraw.withgoogle.com/",
+        "note": "说明二十秒绘画与神经网络识别，并说明涂鸦对公开数据集的贡献。"
+      },
+      {
+        "label": "官方上线历史",
+        "url": "https://blog.google/innovation-and-ai/products/quick-draw-one-billion-drawings-around-world/",
+        "note": "Google 2017 年回顾说明项目自 2016 年 11 月上线。"
+      },
+      {
+        "label": "官方数据集",
+        "url": "https://github.com/googlecreativelab/quickdraw-dataset",
+        "note": "公开的是绘画数据集；不将它标记为完整游戏源码。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "核对官网玩法、数据说明与官方历史；未提交涂鸦或试玩。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "模型猜错和猜对的过程都能被直接感受到，是理解识别模型的轻巧入口。",
+    "firstStep": "点击开始，按屏幕提示画出第一个物体。",
+    "caveat": "官方说明玩家涂鸦可能进入公开数据集；这是识别模型互动，不代表游戏代码由 AI 编写。",
+    "featured": false,
+    "collectionIds": [
+      "five-minutes"
+    ],
+    "visual": "drawing",
+    "accent": "#f2ce62",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "收录并核对官方说明"
+      }
+    ]
+  },
+  {
+    "id": "semantris",
+    "title": "Semantris",
+    "subtitle": "用联想词，解开文字方块",
+    "description": "输入一个提示词，让语义模型在屏幕上的词语中找出相关项。Google Research 将自然语言理解做成词语联想游戏，挑战你用不同的表达方式把目标词从词堆里挑出来。",
+    "category": "game",
+    "creator": {
+      "name": "Google Research",
+      "url": "https://research.google.com/semantris/"
+    },
+    "year": 2018,
+    "publishedAt": "2018-04-13",
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "free",
+      "login": "none",
+      "device": "desktop",
+      "mode": "play"
+    },
+    "aiRole": [
+      "runtime"
+    ],
+    "tools": [
+      "语义匹配模型"
+    ],
+    "tags": [
+      "经典实验",
+      "文字联想",
+      "英语"
+    ],
+    "links": {
+      "primary": "https://research.google.com/semantris/",
+      "source": "https://research.google/blog/introducing-semantic-experiences-with-talk-to-books-and-semantris/?m=1",
+      "code": null,
+      "process": "https://research.google/blog/introducing-semantic-experiences-with-talk-to-books-and-semantris/?m=1"
+    },
+    "evidence": [
+      {
+        "label": "官方游戏入口",
+        "url": "https://research.google.com/semantris/",
+        "note": "核对官方语义游戏入口；页面主体依赖 JavaScript。"
+      },
+      {
+        "label": "Google Research 发布说明",
+        "url": "https://research.google/blog/introducing-semantic-experiences-with-talk-to-books-and-semantris/?m=1",
+        "note": "2018 年 4 月 13 日介绍 Semantris 及其对话语料训练的语义关联模型。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "核对官方发布说明与入口；未执行游戏交互。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "提示词不必和目标字面相似，适合体会模型如何理解词义关联。",
+    "firstStep": "打开原作，选好模式后输入与目标词相关的英文提示。",
+    "caveat": "主要使用英文词语；经典项目的当前服务和浏览器兼容性尚未试玩核验。",
+    "featured": false,
+    "collectionIds": [
+      "five-minutes"
+    ],
+    "visual": "words",
+    "accent": "#e8a88b",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "收录并核对官方说明"
+      }
+    ]
+  },
+  {
+    "id": "viola-the-bird",
+    "title": "Viola the Bird",
+    "subtitle": "让一只紫色小鸟，拉出你的旋律",
+    "description": "带着 Viola 从树林走进音乐厅，拖动琴弓尝试演奏或自由创作。David Li 与弦乐演奏者训练模型，将玩家输入转成实时合成的琴声，让音乐探索有一个俏皮的角色陪伴。",
+    "category": "music",
+    "creator": {
+      "name": "David Li / Google Arts & Culture",
+      "url": "https://artsandculture.google.com/experiment/nAEJVwNkp-FnrQ"
+    },
+    "year": 2023,
+    "publishedAt": "2023-07-12",
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "free",
+      "login": "none",
+      "device": "unknown",
+      "mode": "play"
+    },
+    "aiRole": [
+      "runtime"
+    ],
+    "tools": [
+      "神经网络音频合成"
+    ],
+    "tags": [
+      "经典实验",
+      "音乐互动",
+      "弦乐"
+    ],
+    "links": {
+      "primary": "https://artsandculture.google.com/experiment/nAEJVwNkp-FnrQ",
+      "source": "https://artsandculture.google.com/experiment/nAEJVwNkp-FnrQ",
+      "code": null,
+      "process": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/meet-viola-the-bird-a-new-experiment-inspired-by-the-cello/"
+    },
+    "evidence": [
+      {
+        "label": "官方实验页",
+        "url": "https://artsandculture.google.com/experiment/nAEJVwNkp-FnrQ",
+        "note": "列明 2023 年 7 月 12 日上线、作者、机器学习与实时音频合成机制。"
+      },
+      {
+        "label": "官方幕后说明",
+        "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/meet-viola-the-bird-a-new-experiment-inspired-by-the-cello/",
+        "note": "介绍弦乐演奏者参与训练、自由创作模式和记录作品功能。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "核对官方实验页、发布时间和技术说明；未实际拉奏或录制。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "把弓弦动作映射成生成声音，能一边玩一边探索音乐表现。",
+    "firstStep": "打开声音，跟随原作指引移动琴弓，或选择自由创作。",
+    "caveat": "页面可公开进入；音频交互与各类手机浏览器的兼容性未实测。",
+    "featured": false,
+    "collectionIds": [
+      "five-minutes"
+    ],
+    "visual": "sound",
+    "accent": "#c4a3e1",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "收录并核对官方说明"
+      }
+    ]
+  },
+  {
+    "id": "paint-with-music",
+    "title": "Paint With Music",
+    "subtitle": "每一笔颜色，都有声音",
+    "description": "在天空、海洋等画布上自由落笔，把绘画轨迹变成乐器旋律。Google Arts & Culture 驻留艺术家使用 Magenta DDSP，将视觉表达与实时音乐连在一起，背景也会加入各自的环境音色。",
+    "category": "music",
+    "creator": {
+      "name": "Simon Doury / Caroline Buttet",
+      "url": "https://artsandculture.google.com/experiment/paint-with-music/YAGuJyDB-XbbWg"
+    },
+    "year": 2021,
+    "publishedAt": "2021-06-18",
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "free",
+      "login": "none",
+      "device": "both",
+      "mode": "play"
+    },
+    "aiRole": [
+      "runtime"
+    ],
+    "tools": [
+      "Magenta DDSP"
+    ],
+    "tags": [
+      "经典实验",
+      "绘画音乐",
+      "跨感官"
+    ],
+    "links": {
+      "primary": "https://artsandculture.google.com/experiment/paint-with-music/YAGuJyDB-XbbWg",
+      "source": "https://artsandculture.google.com/experiment/paint-with-music/YAGuJyDB-XbbWg",
+      "code": null,
+      "process": null
+    },
+    "evidence": [
+      {
+        "label": "官方实验说明",
+        "url": "https://artsandculture.google.com/experiment/paint-with-music/YAGuJyDB-XbbWg",
+        "note": "说明作者、2021 年 6 月 18 日上线、Magenta DDSP 技术及桌面/Android 支持。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "核对官方创作者、日期、技术与设备说明；未实际绘画或播放音频。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "绘画动作成为乐器控制器，适合寻找跨感官交互的灵感。",
+    "firstStep": "选一块画布和一种乐器，开启声音后画一笔。",
+    "caveat": "官方列明支持桌面与 Android；iOS 兼容性未确认，完整作品源码未确认。",
+    "featured": false,
+    "collectionIds": [
+      "five-minutes"
+    ],
+    "visual": "drawing",
+    "accent": "#e7a2af",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "收录并核对官方说明"
+      }
+    ]
+  },
+  {
+    "id": "gan-lab",
+    "title": "GAN Lab",
+    "subtitle": "把生成模型的学习过程，看明白",
+    "description": "画出一组点，让生成器与判别器在浏览器里开始较量。GAN Lab 把训练过程、分布变化和参数控制摆在同一张交互画布上，可以暂停、慢放，也可以一步一步观察。",
+    "category": "interactive",
+    "creator": {
+      "name": "Minsuk Kahng 等 / Georgia Tech × Google",
+      "url": "https://poloclub.github.io/ganlab/"
+    },
+    "year": 2018,
+    "publishedAt": null,
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "free",
+      "login": "none",
+      "device": "desktop",
+      "mode": "play"
+    },
+    "aiRole": [
+      "runtime"
+    ],
+    "tools": [
+      "TensorFlow.js"
+    ],
+    "tags": [
+      "经典实验",
+      "机器学习可视化",
+      "开源"
+    ],
+    "links": {
+      "primary": "https://poloclub.github.io/ganlab/",
+      "source": "https://poloclub.github.io/ganlab/",
+      "code": "https://github.com/poloclub/ganlab",
+      "process": "https://poloclub.github.io/ganlab/"
+    },
+    "evidence": [
+      {
+        "label": "作者交互项目",
+        "url": "https://poloclub.github.io/ganlab/",
+        "note": "说明二维数据分布、浏览器训练、慢放与逐步执行；项目关联 VIS 2018 论文，期刊卷期为 2019 年。"
+      },
+      {
+        "label": "官方源码",
+        "url": "https://github.com/poloclub/ganlab",
+        "note": "Apache-2.0 许可的 GAN Lab 实现，采用 TensorFlow.js。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "核对作者项目说明、论文年份和官方仓库；未在浏览器执行训练。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "训练过程本身成为可操纵的界面，适合想理解生成式模型而不仅看成品的人。",
+    "firstStep": "选择一个点阵分布，再点击播放按钮观察生成点的变化。",
+    "caveat": "展示的是二维点分布，不是高分辨率图像生成；首次加载和训练会占用本机资源。",
+    "featured": false,
+    "collectionIds": [
+      "open-source"
+    ],
+    "visual": "orbit",
+    "accent": "#9eb4eb",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "收录并核对官方说明"
+      }
+    ]
+  },
+  {
+    "id": "ai-town",
+    "title": "AI Town",
+    "subtitle": "一个可以自己搭建的 AI 像素小镇",
+    "description": "像素小镇里的角色由语言模型驱动，会聊天、行动并形成互动。a16z 与 Convex 公开了可部署、可定制的实现，适合研究多角色体验，或把小镇改造成自己的世界。",
+    "category": "interactive",
+    "creator": {
+      "name": "a16z / Convex",
+      "url": "https://github.com/a16z-infra/ai-town"
+    },
+    "year": 2023,
+    "publishedAt": null,
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "unknown",
+      "login": "unknown",
+      "device": "desktop",
+      "mode": "setup"
+    },
+    "aiRole": [
+      "runtime"
+    ],
+    "tools": [
+      "Convex"
+    ],
+    "tags": [
+      "经典实验",
+      "AI角色",
+      "多智能体",
+      "开源",
+      "需部署"
+    ],
+    "links": {
+      "primary": "https://github.com/a16z-infra/ai-town",
+      "source": "https://github.com/a16z-infra/ai-town",
+      "code": "https://github.com/a16z-infra/ai-town",
+      "process": "https://github.com/a16z-infra/ai-town"
+    },
+    "evidence": [
+      {
+        "label": "官方项目仓库",
+        "url": "https://github.com/a16z-infra/ai-town",
+        "note": "MIT 许可的可部署小镇，README 提供配置与运行说明；不是预设无需配置的本地游戏。"
+      },
+      {
+        "label": "Convex 2023 年回顾",
+        "url": "https://news.convex.dev/what-a-2023/",
+        "note": "作者团队回顾 2023 年举办的 AI Town 活动，核对项目在该年已公开。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "核对官方仓库、运行说明及公开历史；未安装、部署或验证在线演示。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "既能观察 AI 角色的社交设计，也能沿着公开代码修改角色和环境。",
+    "firstStep": "先阅读仓库 README，按自己的模型与部署环境选择安装路径。",
+    "caveat": "需要开发环境、模型服务或本地模型；运行费用和账号依所选方案而定，未核验托管演示。",
+    "featured": false,
+    "collectionIds": [
+      "open-source"
+    ],
+    "visual": "town",
+    "accent": "#b7c978",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "收录并核对官方说明"
+      }
+    ]
+  },
+  {
+    "id": "plstc",
+    "title": "PLSTC",
+    "subtitle": "被塑料包围的，另一种海底世界",
+    "description": "Laen Sanches 用生成图像与手工合成构成一支短片，让海洋生物与塑料相互纠缠。密集而不安的视觉表达，把生成式图像的奇异质感转化成对海洋污染的寓言。",
+    "category": "film",
+    "creator": {
+      "name": "Laen Sanches",
+      "url": "https://www.plstcfilm.com/"
+    },
+    "year": 2022,
+    "publishedAt": null,
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "unknown",
+      "login": "unknown",
+      "device": "unknown",
+      "mode": "watch"
+    },
+    "aiRole": [
+      "visual"
+    ],
+    "tools": [
+      "Midjourney",
+      "Topaz Labs"
+    ],
+    "tags": [
+      "早期AI影像",
+      "环境主题",
+      "实验短片"
+    ],
+    "links": {
+      "primary": "https://www.plstcfilm.com/",
+      "source": "https://www.plstcfilm.com/",
+      "code": null,
+      "process": "https://www.plstcfilm.com/"
+    },
+    "evidence": [
+      {
+        "label": "导演官方作品页",
+        "url": "https://www.plstcfilm.com/",
+        "note": "列明 2022 年、1 分 37 秒、导演 Laen Sanches；说明生成图像与手工合成，并列出 Midjourney、Topaz Labs 等工具。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "核对导演作品页、年份、片长与工具信息；未独立完整观看。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "生成图像的不协调感服务于主题，可以看到视觉选择与表达目的的联系。",
+    "firstStep": "打开官方作品页，查看影片入口及制作信息。",
+    "caveat": "有海洋生物被塑料包裹的压迫画面；完整播放状态与地区限制未实测。",
+    "featured": false,
+    "collectionIds": [
+      "five-minutes",
+      "made-with-ai"
+    ],
+    "visual": "film",
+    "accent": "#a5d3d5",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "收录并核对官方说明"
+      }
+    ]
+  },
+  {
+    "id": "the-frost",
+    "title": "The Frost",
+    "subtitle": "在冰封世界里，追寻一段神秘信号",
+    "description": "一群幸存者进入南极山区，追寻可能改变命运的信号。Waymark 的早期生成式影像短片先用 DALL·E 2 制作图像，再由人类动画处理，留下了从静态生成图走向电影叙事的制作记录。",
+    "category": "film",
+    "creator": {
+      "name": "Waymark / Latent Cinema",
+      "url": "https://www.thefrost.ai/"
+    },
+    "year": 2023,
+    "publishedAt": null,
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "unknown",
+      "login": "unknown",
+      "device": "unknown",
+      "mode": "watch"
+    },
+    "aiRole": [
+      "visual"
+    ],
+    "tools": [
+      "DALL·E 2"
+    ],
+    "tags": [
+      "早期AI影像",
+      "科幻",
+      "制作幕后"
+    ],
+    "links": {
+      "primary": "https://www.thefrost.ai/",
+      "source": "https://www.thefrost.ai/",
+      "code": null,
+      "process": "https://waymark.com/post/the-frost-part-two-trailer-reveal"
+    },
+    "evidence": [
+      {
+        "label": "官方影片网站",
+        "url": "https://www.thefrost.ai/",
+        "note": "核对作品梗概、制作幕后入口及出品署名。原 thefrostpart.one 官方域名跳转至此。"
+      },
+      {
+        "label": "制作方阶段回顾",
+        "url": "https://waymark.com/post/the-frost-part-two-trailer-reveal",
+        "note": "2023 年 8 月 25 日回顾第一部使用 DALL·E 2 图像与人工动画；文中 Runway Gen-2 属于第二部预告，未混为第一部工具。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "核对官方影片站与制作方回顾；未核验播放器或续作发行状态。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "保留了早期 AI 图像转影片的具体工作流，适合与后来的直接生成视频作品比较。",
+    "firstStep": "进入官方影片页，再沿幕后入口查看从文字到画面的过程。",
+    "caveat": "本条收录第一部；第二部预告的工具与状态分开记录，未声称续作已正式发行。",
+    "featured": false,
+    "collectionIds": [
+      "made-with-ai"
+    ],
+    "visual": "film",
+    "accent": "#a4bacb",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "收录并核对官方说明"
+      }
+    ]
+  }
+]
