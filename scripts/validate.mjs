@@ -76,6 +76,11 @@ export function validateCatalog(projects, sources, collections) {
       require(values.includes(project.access?.[key]), `${at}.access.${key}: unsupported value`);
     }
     require(stringList(project.aiRole) && project.aiRole.length > 0 && project.aiRole.every((role) => roles.includes(role)), `${at}.aiRole: expected distinct evidence-supported roles`);
+    require(['ai-led-code', 'ai-led-media', 'ai-generated-experience'].includes(project.creation?.mode), `${at}.creation.mode: AI-primary creation evidence required`);
+    require(text(project.creation?.summary), `${at}.creation.summary: explain AI's main production role and human involvement`);
+    url(project.creation?.sourceUrl, `${at}.creation.sourceUrl`);
+    require(project.creation?.evidenceLevel === 'source-backed-not-independently-audited', `${at}.creation.evidenceLevel: use source-backed disclosure, not a quantified audit claim`);
+    if (project.creation?.sourceUrl && Array.isArray(project.evidence)) require(project.evidence.some(x => x.url === project.creation.sourceUrl), `${at}.creation.sourceUrl: link must appear in evidence`);
     for (const key of ['tools', 'tags', 'collectionIds']) require(stringList(project[key]), `${at}.${key}: expected distinct strings`);
     for (const id of array(project.collectionIds)) require(collectionIds.has(id), `${at}.collectionIds: unknown collection ${id}`);
     require(typeof project.featured === 'boolean', `${at}.featured: expected a boolean`);

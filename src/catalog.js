@@ -4,7 +4,7 @@ export const COST={free:'免费',freemium:'部分免费',paid:'付费',unknown:'
 export const LOGIN={none:'无需登录',required:'需要账号',unknown:'账号要求待核对'};
 export const DEVICE={desktop:'电脑体验',mobile:'手机体验',both:'电脑 / 手机',unknown:'设备要求见原作'};
 export const MODES={play:'立即体验',watch:'观看原作',setup:'查看部署',demo:'查看演示'};
-export const FILTERS={free:'免费体验','no-login':'无需登录',code:'有源码',made:'AI 辅助制作',mobile:'手机可体验'};
+export const FILTERS={free:'免费体验','no-login':'无需登录',code:'有源码',made:'AI 编程/生成素材',mobile:'手机可体验'};
 export function isMade(p){return p.aiRole.some(x=>['code','visual','audio','editing'].includes(x));}
 export function normalizeSearch(s){return String(s||'').normalize('NFKC').toLocaleLowerCase().trim();}
 export function selectProjects(projects,state,saved=[]){

@@ -10,18 +10,11 @@
       "space-dj",
       "reverse-lofi-anime-girl",
       "capybaras-delivering-food",
-      "neural-beatbox",
       "jailbird",
       "oh-peppers",
       "reef-relay",
       "air-head",
       "infinite-craft",
-      "blob-opera",
-      "growing-neural-cellular-automata",
-      "quick-draw",
-      "semantris",
-      "viola-the-bird",
-      "paint-with-music",
       "plstc"
     ]
   },
@@ -34,11 +27,9 @@
     "color": "#85C7FF",
     "projectIds": [
       "mist-locked-gate",
-      "dear-stranger",
       "next-token",
       "the-well",
       "capybaras-delivering-food",
-      "total-pixel-space",
       "orbitswarm",
       "jailbird",
       "catrooms",
@@ -46,7 +37,6 @@
       "haldane-4",
       "oh-peppers",
       "reef-relay",
-      "ancestra",
       "air-head",
       "nightshoal",
       "plstc",
@@ -62,11 +52,7 @@
     "color": "#F7B5E3",
     "projectIds": [
       "infiplot",
-      "space-dj",
-      "neural-beatbox",
-      "growing-neural-cellular-automata",
-      "gan-lab",
-      "ai-town"
+      "space-dj"
     ]
   }
 ]
