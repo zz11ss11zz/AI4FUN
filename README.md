@@ -6,7 +6,19 @@
 
 **[打开 AI4FUN](https://zz11ss11zz.github.io/AI4FUN/) · [推荐作品](https://github.com/zz11ss11zz/AI4FUN/issues/new?template=project.yml) · [推荐信源](https://github.com/zz11ss11zz/AI4FUN/issues/new?template=source.yml)**
 
-当前公开精选 **22 件作品、11 个信源和 3 个主题合集**；2026-11-20 首轮按“AI 主导主要制作/生成内容”标准复核，**12 件历史条目暂入待复核队列**（并非断言这些作品没有使用 AI）。界面支持手机浏览、浅色与深色模式。
+当前公开精选 **23 件作品、11 个信源和 3 个主题合集**；2026-11-20 首轮按“AI 主导主要制作/生成内容”标准复核，**12 件历史条目暂入待复核队列**（并非断言这些作品没有使用 AI）。界面支持手机浏览、浅色与深色模式。
+
+## 原创游戏：遗迹疾行 RELIC RUN
+
+**[点击开玩](https://zz11ss11zz.github.io/AI4FUN/games/relic-run/)** · [制作档案](https://zz11ss11zz.github.io/AI4FUN/games/relic-run/making-of.html) · [游戏源码](public/games/relic-run/)
+
+第一人称 3D 浏览器跑酷，包含埃及、高棉、玛雅、长城和欧洲古堡五个可直接选择的场景。每关 720 米，支持变道、跳跃、滑铲、遗物收集、三次碰撞容错、暂停与重开。电脑使用 A/D、空格、S；手机使用滑动或屏幕按钮。最高分与设置仅保存在本机。
+
+游戏主代码、场景几何、程序材质、程序音效和 UI 由 ChatGPT 根据用户需求制作；封面与石材贴图由内置图像生成工具制作。渲染使用随仓库分发的 Three.js r170（MIT）。无远程模型请求、无需 API Key、无需安装；首次打开需要加载站内图片与 3D 库。视觉目标是电影感的轻量 3D 小品，实际画面以游戏为准，不将 AI 概念封面当作运行截图。
+
+支持 WebGL 2 的浏览器使用完整三维场景；无法创建 WebGL 上下文时会自动选择 Canvas 兼容画面，沿用相同的路线、动作、碰撞和得分规则。兼容画面的建筑与光照细节更简化，界面会标明当前模式。运行时六张 WebP 图片合计约 1.12 MiB，原始 PNG 保留在素材目录用于追溯制作过程。
+
+验证分为玩法逻辑、站内资源完整性与实际浏览器体验。自动化测试覆盖前两项，不能据此认定所有设备的三维画面与帧率已验证；2026-11-20 已在云端 Chrome 验证兼容模式五场景切换、倒计时暂停、键盘与屏幕按钮，以及 320×480、320×568 和 844×320 布局；该浏览器禁用 WebGL，完整三维画质仍需在支持硬件加速的设备上验收。具体范围见制作档案和 [开发交接](docs/RELIC_RUN_HANDOFF.md)。本站使用静态 HTTP 服务运行，请通过在线入口或本地服务器打开。
 
 ## 网站提供什么
 
@@ -29,7 +41,7 @@ npm test
 npm run build
 ```
 
-构建结果在 `dist/`。使用任意静态 HTTP 服务器预览该目录；不要直接用 `file://` 打开。网站无需后端即可浏览，外部作品在原作者网站打开。
+构建结果在 `dist/`。使用任意静态 HTTP 服务器预览该目录；不要直接用 `file://` 打开。网站无需后端即可浏览；原创小游戏在本站直接运行，外部作品在原作者网站打开。
 
 ## 后续如何添加内容
 
@@ -78,7 +90,7 @@ npm run check:links -- --project infinite-craft --output /tmp/ai4fun-links.json
 
 ## 发布与维护
 
-每次提交或 Pull Request 会运行数据校验、16 项行为测试和静态构建。`main` 分支通过检查后，由 `Publish GitHub Pages` 工作流自动部署到上面的在线地址。校验工作流只有只读权限；发布工作流仅部署任务拥有 Pages 写入和 OIDC 权限。checkout/setup-node 固定官方提交，Pages 专用 actions 使用官方文档推荐的 major 版本。
+每次提交或 Pull Request 会运行数据校验、目录与跑酷行为测试和静态构建。`main` 分支通过检查后，由 `Publish GitHub Pages` 工作流自动部署到上面的在线地址。校验工作流只有只读权限；发布工作流仅部署任务拥有 Pages 写入和 OIDC 权限。checkout/setup-node 固定官方提交，Pages 专用 actions 使用官方文档推荐的 major 版本。
 
 GitHub Pages 使用 Actions 作为发布来源。迁移到其他静态托管时，设置 `SITE_URL` 后构建即可，构建产物包含独立作品页、RSS、sitemap、robots.txt 与 404 页面。预览所用 Sites 配置与公开 Pages 互相独立。
 

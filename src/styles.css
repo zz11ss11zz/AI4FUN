@@ -39,3 +39,6 @@ dialog{color:var(--text);background:var(--surface);border:1px solid var(--line);
 @media(max-width:560px){.floating-note{bottom:107px;left:-10px}.spotlight-visual{aspect-ratio:1.8}}
 
 @media(max-width:560px){.site-header .wordmark{font-size:24px;letter-spacing:-1.2px;gap:7px}.site-header .wordmark img{width:27px;height:27px}}
+
+/* A directly playable, same-origin original. */
+.original-feature{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:36px;padding:28px 32px;border:1px solid var(--border,#d6e0f3);border-radius:18px;background:linear-gradient(115deg,#e0e9fd,#eaf1fc)}.original-feature .eyebrow{font-size:11px;margin-bottom:10px}.original-feature h2{font-size:24px;letter-spacing:-.025em;margin:0 0 9px}.original-feature p{font-size:14px;line-height:1.7;margin:0;color:#57657d}.original-feature>.button{flex-shrink:0}.original-nav{white-space:nowrap}html[data-theme=dark] .original-feature{background:linear-gradient(115deg,#1d2944,#162338)}html[data-theme=dark] .original-feature p{color:#b7c8e0}@media(max-width:700px){.original-feature{margin-top:24px;padding:24px;flex-direction:column;align-items:flex-start;gap:18px}.original-feature h2{font-size:22px}.original-feature p{font-size:13px}.original-nav{display:none}}

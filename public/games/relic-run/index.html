@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#111817">
+  <meta name="description" content="AI4FUN 原创第一人称遗迹跑酷。埃及、高棉、玛雅、长城、欧洲古堡，五段 720 米的短途冒险。无需下载，点击即玩。">
+  <meta property="og:title" content="遗迹疾行 RELIC RUN · AI4FUN">
+  <meta property="og:description" content="五座失落世界，一次心跳加速。第一人称 3D 浏览器跑酷。">
+  <title>遗迹疾行 · RELIC RUN · AI4FUN</title>
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="game.css">
+</head>
+<body data-mode="menu">
+  <main id="game-shell" aria-label="遗迹疾行第一人称跑酷">
+    <canvas id="world" tabindex="-1" aria-label="实时三维遗迹场景"></canvas>
+    <div class="cinematic-shade" aria-hidden="true"></div>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="hit-flash" id="hit-flash" aria-hidden="true"></div>
+    <header class="game-header">
+      <a href="../../" class="brand" aria-label="返回 AI4FUN"><span class="brand-mark">✳</span> AI4FUN <span class="original-label">ORIGINALS</span></a>
+      <div class="header-controls">
+        <button id="sound-toggle" class="icon-button" aria-label="开启声音" aria-pressed="false" title="声音">♪<span>声音关</span></button>
+        <button id="settings-open" class="icon-button" aria-label="打开画面与操作设置" title="设置">⚙<span>设置</span></button>
+        <button id="pause" class="icon-button play-only" aria-label="暂停游戏" title="暂停">Ⅱ<span>暂停</span></button>
+        <button id="fullscreen" class="icon-button" aria-label="全屏游戏" title="全屏">⛶<span>全屏</span></button>
+      </div>
+    </header>
+
+    <section id="menu" class="menu" aria-labelledby="game-title">
+      <div class="menu-copy">
+        <p class="eyebrow"><span class="line"></span> A FIRST-PERSON ESCAPE</p>
+        <h1 id="game-title">遗迹疾行<span>RELIC RUN</span></h1>
+        <p class="tagline">五座失落世界。<br>一次心跳加速。</p>
+        <div class="scene-intro"><p id="scene-region">尼罗河谷 · 黄昏</p><h2 id="scene-title">太阳神的回廊</h2><p id="scene-description">风沙掠过巨柱，最后一束金光正穿过失落的神庙。</p></div>
+        <div class="start-row"><button id="start" class="primary-button" disabled><span class="play-glyph" aria-hidden="true"></span><span id="start-label">正在唤醒遗迹…</span></button><span class="run-length">720 米<br><small>约一分钟的冒险</small></span></div>
+        <div class="instructions"><span><kbd>A</kbd><kbd>D</kbd> 变道</span><span><kbd>空格</kbd> 跳跃</span><span><kbd>S</kbd> 滑铲</span><span class="touch-hint">手机滑动或触控按钮</span></div>
+      </div>
+      <div class="scene-caption" aria-hidden="true"><span id="scene-en">SANDS OF ETERNITY</span><span class="caption-rule"></span><small>REAL-TIME 3D · FIRST PERSON</small></div>
+      <div class="scene-dock"><div class="dock-heading"><span>选择你的目的地</span><span>五个场景，全部开放</span></div><div class="scene-list" id="scene-list" role="group" aria-label="选择场景"></div></div>
+      <p class="menu-note">AI 主导制作 · 无需登录 · 键盘 / 触控 <a href="./making-of.html">制作档案</a></p>
+    </section>
+
+    <section class="hud play-only" aria-label="游戏状态">
+      <div class="hud-left"><span class="hud-overline" id="hud-scene">埃及 · 太阳神的回廊</span><span class="distance"><strong id="distance">0</strong><small>/ 720 m</small></span><div class="progress-track"><span id="progress"></span></div></div>
+      <div class="hud-right"><div class="relic-counter"><span class="relic-diamond" aria-hidden="true">◇</span><strong id="relics">0</strong><span>遗物</span></div><div class="health" id="health" aria-label="3 次容错">◆ ◆ ◆</div></div>
+    </section>
+    <div id="countdown" class="countdown" aria-live="assertive" hidden></div>
+    <div class="reticle play-only" aria-hidden="true"></div>
+    <div id="coach" class="coach play-only" role="status">收集金色遗物，躲开前方障碍</div>
+    <div class="speed-readout play-only"><span id="speed">0</span> KM/H <span class="speed-rule"></span><span id="quality-status">高画质</span></div>
+    <div class="touch-controls play-only" aria-label="触屏操作"><div class="touch-steer"><button data-action="left" aria-label="向左变道">‹</button><button data-action="right" aria-label="向右变道">›</button></div><div class="touch-actions"><button data-action="slide" aria-label="滑铲">滑铲</button><button data-action="jump" aria-label="跳跃">跳跃</button></div></div>
+
+    <section id="pause-panel" class="overlay-panel" hidden aria-labelledby="pause-title"><div class="panel"><p class="eyebrow">TAKE A BREATH</p><h2 id="pause-title">世界为你停一会儿。</h2><p>准备好了，就继续这场冒险。</p><button id="resume" class="primary-button">继续奔跑</button><button class="secondary-button" id="pause-restart">重新挑战</button><button class="text-button" id="pause-menu">选择其他场景</button><small>Esc / P 继续</small></div></section>
+    <section id="result-panel" class="overlay-panel" hidden aria-labelledby="result-title"><div class="panel result"><p class="eyebrow" id="result-eyebrow">THE JOURNEY CONTINUES</p><h2 id="result-title">再试一次，更远一点。</h2><p id="result-message"></p><div class="result-stats"><div><strong id="result-distance">0</strong><span>行进距离 / 米</span></div><div><strong id="result-relics">0</strong><span>收集遗物</span></div><div><strong id="result-score">0</strong><span>本次得分</span></div></div><p class="best-line" id="best-line"></p><button id="retry" class="primary-button">再次挑战</button><button id="next-scene" class="secondary-button">体验下一个场景</button><button id="result-menu" class="text-button">返回场景选择</button></div></section>
+    <dialog id="settings-dialog" aria-labelledby="settings-title"><button class="dialog-close" id="settings-close" aria-label="关闭设置">×</button><p class="eyebrow">MAKE IT YOURS</p><h2 id="settings-title">按你的节奏。</h2><label class="setting-row"><span>画面质量<small id="quality-help">流畅模式会降低分辨率和阴影精度</small></span><select id="quality"><option value="high">高画质</option><option value="balanced">均衡</option><option value="low">流畅</option></select></label><label class="setting-row"><span>镜头起伏<small>奔跑时轻微头部运动</small></span><input id="head-bob" type="checkbox" checked></label><label class="setting-row"><span>环境声音<small>脚步、风声与遗物音效</small></span><input id="sound-setting" type="checkbox"></label><div class="settings-help"><h3>操作</h3><p>A / D 或 ← / → 变道<br>空格 / W / ↑ 跳跃<br>S / ↓ 滑铲<br>Esc / P 暂停 · R 重新挑战</p><p>手机：左右滑动变道，上滑跳跃，下滑滑铲；也可以使用屏幕按钮。横屏视野更开阔。</p><p>金色水晶可收集；低石障碍需要跳跃或变道，横梁需要滑铲或变道，裂隙需要跳跃或变道。最多承受三次碰撞。</p></div><a class="making-link" href="./making-of.html">查看制作档案与画质说明</a></dialog>
+    <section id="error-panel" class="overlay-panel" hidden><div class="panel"><p class="eyebrow">A SMALL DETOUR</p><h2>场景暂时没有打开。</h2><p id="error-message">请使用支持 WebGL 2 的现代浏览器，并开启硬件加速。</p><button id="reload" class="primary-button">重新加载</button><button id="compatibility-reload" class="secondary-button">使用兼容画面</button><a href="../../" class="secondary-button">回到 AI4FUN</a></div></section>
+    <div id="notice" class="notice" role="status" hidden></div>
+  </main>
+  <noscript><div class="no-js">这个 3D 游戏需要启用 JavaScript。<a href="../../">返回 AI4FUN</a></div></noscript>
+  <script type="module" src="game.js"></script>
+</body>
+</html>

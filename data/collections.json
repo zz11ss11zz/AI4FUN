@@ -7,6 +7,7 @@
     "icon": "play",
     "color": "#C2EB67",
     "projectIds": [
+      "relic-run",
       "space-dj",
       "reverse-lofi-anime-girl",
       "capybaras-delivering-food",
@@ -26,6 +27,7 @@
     "icon": "sparkles",
     "color": "#85C7FF",
     "projectIds": [
+      "relic-run",
       "mist-locked-gate",
       "next-token",
       "the-well",
@@ -51,6 +53,7 @@
     "icon": "code",
     "color": "#F7B5E3",
     "projectIds": [
+      "relic-run",
       "infiplot",
       "space-dj"
     ]

@@ -1,0 +1,53 @@
+# 遗迹跑酷图像资产提示词
+
+- 模式：内置 image_gen；每个场景独立生成。
+- 目标：照片级、第一人称视角、16:9 横幅，无人物与游戏 HUD。
+- 用途：游戏选关及环境场景封面，属于 AI 生成的虚构历史场景，不是真实遗址照片。
+- 生成后保留原始字节，不缩放、不裁切、不合成。网页可通过 CSS object-fit 展示。
+
+## 已保存资产
+
+五张均为内置 image_gen 的原始 PNG 输出，实际尺寸 1672 × 941（约 16:9）。原始输出文件已逐字节复制，并通过 SHA-256 校验副本一致；未作图像后处理。
+
+| 文件 | 场景 | 字节数 |
+| --- | --- | ---: |
+| egypt.png | 埃及巨柱、金色日暮与沙漠 | 2,872,297 |
+| khmer.png | 雨后吴哥石廊、树根与青苔 | 3,500,147 |
+| maya.png | 玛雅阶梯金字塔与热带晚霞 | 3,381,131 |
+| wall.png | 长城敌楼、青砖与晨雾群山 | 2,851,676 |
+| castle.png | 哥特古堡、湿石、夜蓝与火盆 | 3,091,332 |
+
+每个场景单独调用一次生成工具，共 5 次。已逐张检查中央跑道、场景特色与禁止元素；雕刻和浮雕属于建筑装饰，画面中无实际人物、HUD、金币或水印。历史建筑为创作参考，场景并非考古复原。
+
+另追加一张实时材质 ancient-stone.png：独立调用一次内置 image_gen，原始输出直接复制，未缩放或修缝。提示要求为 2048 × 2048，实际输出尺寸为 1254 × 1254，文件大小 3,993,022 字节。平铺要求已写入提示词；AI 输出的边缘连续性不应视作经过严格验证的无缝材质。
+
+## egypt
+
+Use case: historical-scene. Asset type: original photorealistic banner for a first-person ruins parkour game. Generate exactly one standalone 16:9 landscape image, ideally 2048 by 1152, not a collage. First-person human eye-height camera at 1.7 metres, subtle 24mm wide-angle perspective, camera centered on a long narrow stone running path that leads strongly toward a vanishing point. The continuous path is visually clear and fills the lower foreground, with distinctive ancient architecture framing both sides. Cinematic environmental photography realism, physically plausible architecture and materials, intricate aged stone with broken edges and small cracks, beautiful atmospheric depth, high detail but natural light response. This is an imagined scene inspired by historical architecture, not a documentary reconstruction. No person, hands, body, weapon, animal, text, readable lettering, title, logo, watermark, UI, HUD, score, coins, collectible symbols, glowing game pickups, or modern objects.
+Scene: an ancient Egyptian desert temple processional route at late golden sunset. Monumental warm sandstone papyrus columns stand in rows on both sides of the narrow elevated stone path; battered lintels, eroded geometric relief, sand collecting in joints, distant pylons and a pyramid silhouette beyond the temple. Low desert dunes and a hazy sun at the horizon. Strong warm amber natural sidelight, soft dusty volumetric rays, deep but readable shadows. Rich golden ochre stone and subtle cobalt distance. Keep central running path unmistakable and unobstructed; culturally distinct Egyptian monumental architecture.
+
+## khmer
+
+Use case: historical-scene. Asset type: original photorealistic banner for a first-person ruins parkour game. Generate exactly one standalone 16:9 landscape image, ideally 2048 by 1152, not a collage. First-person human eye-height camera at 1.7 metres, subtle 24mm wide-angle perspective, camera centered on a long narrow stone running path that leads strongly toward a vanishing point. The continuous path is visually clear and fills the lower foreground, with distinctive ancient architecture framing both sides. Cinematic environmental photography realism, physically plausible architecture and materials, intricate aged stone with broken edges and small cracks, beautiful atmospheric depth, high detail but natural light response. This is an imagined scene inspired by historical architecture, not a documentary reconstruction. No person, hands, body, weapon, animal, text, readable lettering, title, logo, watermark, UI, HUD, score, coins, collectible symbols, glowing game pickups, or modern objects.
+Scene: an ancient Khmer temple stone gallery inspired by Angkor immediately after tropical rain. A narrow ancient causeway of dark wet sandstone runs between sculpted Khmer columns and broken door frames, with giant strangler fig tree roots gripping the side walls, deep green moss and tiny ferns in joints, an iconic Khmer lotus-bud tower visible in the distance. Rainwater shallow puddles on the path reflect pale diffuse morning sky. Lush rainforest edges, low mist, rich realistic stone pores and wet sheen. Natural soft green reflected light and cool atmospheric shade, with a few warm sun shafts through the canopy. Keep the path center clear, roots wrapping walls rather than blocking the camera.
+
+## maya
+
+Use case: historical-scene. Asset type: original photorealistic banner for a first-person ruins parkour game. Generate exactly one standalone 16:9 landscape image, ideally 2048 by 1152, not a collage. First-person human eye-height camera at 1.7 metres, subtle 24mm wide-angle perspective, camera centered on a long narrow stone running path that leads strongly toward a vanishing point. The continuous path is visually clear and fills the lower foreground, with distinctive ancient architecture framing both sides. Cinematic environmental photography realism, physically plausible architecture and materials, intricate aged stone with broken edges and small cracks, beautiful atmospheric depth, high detail but natural light response. This is an imagined scene inspired by historical architecture, not a documentary reconstruction. No person, hands, body, weapon, animal, text, readable lettering, title, logo, watermark, UI, HUD, score, coins, collectible symbols, glowing game pickups, or modern objects.
+Scene: an ancient Maya jungle ceremonial complex at tropical sunset. A narrow elevated limestone causeway runs toward a magnificent Maya stepped pyramid with a small temple on its summit, clearly stepped Mesoamerican proportions and broad staircase. Weathered pale limestone blocks, eroded geometric carvings without readable text, broken low side parapets, dense tropical canopy below and giant broadleaf trees on the edges. Pink coral and gold sunset clouds, warm light on pyramid faces, humid violet-blue jungle haze at depth. Realistic vegetation, subtle ancient wear, and clear center path; no Egyptian pyramid shapes.
+
+## wall
+
+Use case: historical-scene. Asset type: original photorealistic banner for a first-person ruins parkour game. Generate exactly one standalone 16:9 landscape image, ideally 2048 by 1152, not a collage. First-person human eye-height camera at 1.7 metres, subtle 24mm wide-angle perspective, camera centered on a long narrow stone running path that leads strongly toward a vanishing point. The continuous path is visually clear and fills the lower foreground, with distinctive ancient architecture framing both sides. Cinematic environmental photography realism, physically plausible architecture and materials, intricate aged stone with broken edges and small cracks, beautiful atmospheric depth, high detail but natural light response. This is an imagined scene inspired by historical architecture, not a documentary reconstruction. No person, hands, body, weapon, animal, text, readable lettering, title, logo, watermark, UI, HUD, score, coins, collectible symbols, glowing game pickups, or modern objects.
+Scene: a first-person view along the Great Wall of China in early morning mountain mist. The narrow grey-blue brick walkway rises gently toward a traditional Ming-style watchtower with arched openings and crenellated parapets; the wall continues winding across dramatic green mountain ridges beyond. Cracked and worn blue-grey bricks, chipped battlements, tufts of grass at the edges, cold dew on the stones. Mist curls through the steep valleys, soft low golden dawn light breaks into a cool pale blue atmosphere. Recognizably Chinese Great Wall architecture, no fantasy spires. The walkway is centered and physically continuous.
+
+## castle
+
+Use case: historical-scene. Asset type: original photorealistic banner for a first-person ruins parkour game. Generate exactly one standalone 16:9 landscape image, ideally 2048 by 1152, not a collage. First-person human eye-height camera at 1.7 metres, subtle 24mm wide-angle perspective, camera centered on a long narrow stone running path that leads strongly toward a vanishing point. The continuous path is visually clear and fills the lower foreground, with distinctive ancient architecture framing both sides. Cinematic environmental photography realism, physically plausible architecture and materials, intricate aged stone with broken edges and small cracks, beautiful atmospheric depth, high detail but natural light response. This is an imagined scene inspired by historical architecture, not a documentary reconstruction. No person, hands, body, weapon, animal, text, readable lettering, title, logo, watermark, UI, HUD, score, coins, collectible symbols, glowing game pickups, or modern objects.
+Scene: a first-person narrow stone bridge and battlement passage approaching a medieval European Gothic castle at blue hour. Pointed Gothic arches, tall buttresses, dark weathered stone towers, a vaulted gate entrance in the middle distance. Rain-wet cobblestones with realistic reflections; black iron braziers on the sides burn warm amber fire, casting subtle natural flickering illumination against deep blue evening haze. Broken masonry edges and sparse ivy, rugged mountain silhouettes beneath the bridge. Atmospheric photorealistic cinematic contrast with readable stone detail; keep the central passage clear, no characters, magic glow or unrealistic floating architecture.
+
+## ancient-stone
+
+Use case: texture asset. Generate exactly one standalone square 2048 by 2048 photorealistic seamless tileable ancient stone masonry material texture, intended for real-time physically based 3D rendering. Fill every pixel edge-to-edge with the stone material, no margins or border. Camera perfectly perpendicular to the wall, orthographic projection, front-facing close-up: absolutely no perspective, no lens distortion, no depth-of-field. Six to eight horizontal rows of irregular rectangular ancient limestone / sandstone blocks, with subtly varied stone lengths, staggered realistic joints, weathered broken edges, tiny grain, natural pores, fine erosion, subtle hairline cracks and shallow recesses. Desaturated neutral stone in pale grey with a faint beige cast; low color contrast so a shader may multiply a tint. Albedo / base-color appearance: completely even diffuse flat illumination, no directional cast shadow, no specular highlight, no vignetting, no baked ambient occlusion gradients, no light source. Tile seamlessly horizontally and vertically, matching all opposite edges without conspicuous repeating motifs. Natural realistic microdetail, restrained wear rather than dramatic ruined holes. No moss, vegetation, wood, metal, objects, people, faces, relief sculptures, glyphs, readable letters, inscriptions, markings, logo, watermark, text or UI. The entire image must be only the continuous stone block texture, photographed as an evenly lit surface.
+
+

@@ -1,5 +1,94 @@
 [
   {
+    "id": "relic-run",
+    "title": "遗迹疾行 · RELIC RUN",
+    "subtitle": "第一人称穿越五座遗迹，720 米的心跳冒险",
+    "description": "AI4FUN 原创浏览器跑酷。埃及、高棉、玛雅、长城、欧洲古堡五个场景全部开放；沿三条跑道自动奔跑，通过变道、跳跃和滑铲越过障碍，收集遗物并抵达终点。支持键盘与触控，内置画质选择、镜头起伏开关、环境音和本地最高分。",
+    "category": "game",
+    "creator": {
+      "name": "AI4FUN × ChatGPT",
+      "url": "https://github.com/zz11ss11zz/AI4FUN"
+    },
+    "year": 2026,
+    "publishedAt": "2026-11-20",
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "free",
+      "login": "none",
+      "device": "both",
+      "mode": "play"
+    },
+    "aiRole": [
+      "code",
+      "visual",
+      "audio"
+    ],
+    "tools": [
+      "ChatGPT",
+      "图像生成",
+      "Three.js",
+      "WebGL 2",
+      "Web Audio"
+    ],
+    "tags": [
+      "本站原创",
+      "第一人称",
+      "五大遗迹",
+      "浏览器跑酷"
+    ],
+    "links": {
+      "primary": "https://zz11ss11zz.github.io/AI4FUN/games/relic-run/",
+      "source": "https://github.com/zz11ss11zz/AI4FUN/tree/main/public/games/relic-run",
+      "code": "https://github.com/zz11ss11zz/AI4FUN/tree/main/public/games/relic-run",
+      "process": "https://zz11ss11zz.github.io/AI4FUN/games/relic-run/making-of.html"
+    },
+    "localPath": "games/relic-run/",
+    "coverPath": "games/relic-run/assets/egypt.webp",
+    "coverLabel": "AI 场景概念图",
+    "evidence": [
+      {
+        "label": "原创游戏源码与制作档案",
+        "url": "https://github.com/zz11ss11zz/AI4FUN/tree/main/public/games/relic-run",
+        "note": "本次由用户提出主题和画质目标，ChatGPT 编写玩法、场景几何、材质程序、UI、音效和测试；Three.js 为现有第三方渲染库，保留 MIT 许可证。"
+      },
+      {
+        "label": "可玩的版本与制作说明",
+        "url": "https://zz11ss11zz.github.io/AI4FUN/games/relic-run/making-of.html",
+        "note": "记录五场景设计、图像生成提示词、AI 与人的分工、操作方法和实时画质边界。场景选择封面是 AI 概念图，实际画面以游戏为准。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "本站原创，制作过程与源码可查；玩法与资源完整性有自动化检查，浏览器体验范围见制作档案。兼容模式通过不代表全部设备的 WebGL 三维效果已验证。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "从收藏别人的灵感，到亲手把一个点子变成可以跑进去的世界：五种建筑风貌、同一套短而完整的挑战，点开就能玩。",
+    "firstStep": "点击“站内开玩”，选择一个遗迹，再点“踏入遗迹”。A/D 或左右方向键变道，空格跳跃，S 滑铲；手机可滑动或使用屏幕按钮。",
+    "caveat": "原创第一人称跑酷小品，借鉴神庙逃亡的玩法类型，不是其官方作品。完整三维模式需要 WebGL 2；无法启用时自动使用 Canvas 兼容画面，保留相同玩法。画质随设备变化，可切换流畅模式。电影感为美术目标，本版本不宣称达到商业 AAA 或路径追踪画质。封面为 AI 概念图。",
+    "featured": true,
+    "collectionIds": [
+      "five-minutes",
+      "made-with-ai",
+      "open-source"
+    ],
+    "visual": "relic",
+    "accent": "#D7BA82",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "release",
+        "text": "五个场景、完整短程跑酷与站内即玩入口首次发布。"
+      }
+    ],
+    "creation": {
+      "mode": "ai-led-code",
+      "summary": "用户提出玩法、五个场景与画质目标；ChatGPT 完成游戏的主要自定义代码、场景构建、程序音效和界面，内置图像生成制作封面与石材图。Three.js 是第三方 MIT 渲染库；人类提出需求、Prompt 与反馈。",
+      "sourceUrl": "https://github.com/zz11ss11zz/AI4FUN/tree/main/public/games/relic-run",
+      "evidenceLevel": "source-backed-not-independently-audited"
+    }
+  },
+  {
     "id": "mist-locked-gate",
     "title": "雾锁山门",
     "subtitle": "雪夜山门里，打出一套自己的剑招",
