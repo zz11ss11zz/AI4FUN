@@ -175,3 +175,175 @@ Reef Relay 先前仅记录年份；本次补齐官方公开日期。其页面明
 ## 后续加入用户信源
 
 新信源应先进入信源登记，之后逐条确认原作者、AI 参与方式、实际作品入口及可访问条件。新增作品继续使用相同 JSON 字段；只有确实在注明设备和浏览器中操作完成后，才能将验证级别改为 `hands-on` 并记录环境与步骤。条目去留与推荐理由属于编辑判断，不等同于作者或平台认证。
+
+
+## 2026-11-20 · 第二批发现
+
+本轮新增 18 件作品（8 款游戏、3 个互动实验、5 部短片、2 个音乐实验），目录扩充为 34 件。新增 Qosmo、Magenta、VibeJam、VibeGamer 与 InfiPlot 官方仓库 5 个发现来源，来源总数为 11。仓库、Pages 地址与页面标识统一采用 AI4FUN。
+
+所有新条目均为 `source-reviewed`，表示公开来源已核对，不等同于完整试玩或观影通过。未确认的费用、登录、设备和发布日期继续留作未知；来源索引的发布时间与获奖年份分开记录。
+
+- `Space DJ` 的 AI Studio 入口是可查看和复刻的代码，需 Google 登录；没有据此宣称某个开源许可。
+- `Neural Beatbox` 的源码是模型示例，不是整站实现。
+- 《雾锁山门》的公开制作 Skill 与演示游戏素材权利不同，因此未标记为游戏源码开源。
+- `Oasis` 早期模型仓库本轮返回失效结果，源码字段留空；保留官方演示与研究说明。
+- `Total Pixel Space` 的作品年份是 2024，2025 是获奖年；`Reverse Lo-fi Anime Girl` 的目录年份是 2025，2026 年的介绍文章不作为首发日。
+- 2026 年 Runway 奖项采用仍明确标注 AIF 2026 的官方页面；根首页已转向下一届征片。
+
+### 雾锁山门
+
+- 原作：[雾锁山门](https://op7418.github.io/guizang-game-skill/)
+- 作品年份：2026；精确公开日期：未确认，留空。
+- 本次范围：核对作者官方仓库、制作归因和在线演示操作说明；未加载并操作 WebGL 战斗场景。
+- [作者制作复盘](https://github.com/op7418/guizang-game-skill)：作者将《雾锁山门》作为实际演示，披露 Fable 5.2 辅助开发、即梦设定图与 Tripo 模型，以及多轮测试、返工与修改。仓库 main 的 Skill 许可与演示游戏素材权利不同。
+- [官方可玩演示](https://op7418.github.io/guizang-game-skill/)：页面有点击开始、键鼠与触屏操作提示，要求 WebGL 2；链接回作者制作过程。没有据页面抓取结果声称已实际跑通战斗。
+
+### Space DJ
+
+- 原作：[Space DJ](https://spacedj-363947264390.us-west1.run.app/)
+- 作品年份：2025；精确公开日期：2025-11-03。
+- 本次范围：已核对官方功能、日期与链接；未实际试听、测试设备兼容性或核对实时服务配额。
+- [Magenta 官方发布说明](https://magenta.withgoogle.com/spacedj-announce)：2025-11-03 发布，说明飞船位置影响音乐风格权重，由 Lyria RealTime 生成音频；提供体验与 AI Studio 复刻入口。
+- [官方体验入口](https://spacedj-363947264390.us-west1.run.app/)：地址来自官方发布页；本次能获取应用页面，但未实际生成或试听音乐。
+
+### Dear “Stranger” · 浮生若梦
+
+- 原作：[Dear “Stranger” · 浮生若梦](https://labs.google/flow/tv/short-films?i=dear-stranger)
+- 作品年份：2025；精确公开日期：2025-05-20。
+- 本次范围：已核对作者或官方展映页面、作品归属及 AI 参与依据；未完整播放影片，未验证各地区的登录、付费及设备限制。
+- [Google Flow TV 官方影片页](https://labs.google/flow/tv/short-films?i=dear-stranger)：明确影片标题、Junie Lau 署名、故事梗概和 Watch 入口，并注明 Flow 与其他工具、技法共同参与。
+- [导演官方项目记录](https://junielau.com/about)：Selected Projects 将 Dear Stranger 的 Flow TV 上线日期标为 2025.05.20。
+- [Google 官方创作者介绍](https://blog.google/innovation-and-ai/products/google-flow-veo-ai-filmmaking-tool/)：Flow 发布介绍中点名这部作品与导演，说明祖母和孙女跨越梦境世界的故事。
+
+### NEXT TOKEN
+
+- 原作：[NEXT TOKEN](https://next-token.dev/play.html)
+- 作品年份：未确认；精确公开日期：未确认，留空。
+- 本次范围：核对作者或官方公开页面与所列制作说明；未实际运行或通关，制作归因依据发布者自述。
+- [作者作品说明](https://next-token.dev/)：说明九段对话、逐 token 选词和上下文机制；披露 Claude 制作、PAGAN 美术及 SEGAN 音乐音效，并公开原始提示。
+- [作者项目目录](https://lukasgolino.com/projects.html)：Lukas Golino 的个人项目目录直接列出 NEXT TOKEN，并链接同一作品与游玩页。
+- [浏览器入口](https://next-token.dev/play.html)：官方说明支持方向键与空格或鼠标，进度保存在本浏览器；首次加载约 50 MB。
+
+### InfiPlot
+
+- 原作：[InfiPlot](https://infiplot.com/)
+- 作品年份：2026；精确公开日期：未确认，留空。
+- 本次范围：核对官方体验页和项目 README；未提交故事生成、未测试完整剧情或模型额度，账号要求未确认。
+- [官方体验页](https://infiplot.com/)：中文页面提供故事开场、风格和声音选项；注明公测期间免费、生成稳定性可能随并发波动。此说明不承诺长期免费。
+- [官方源码与机制说明](https://github.com/zonghaoyuan/infiplot)：README 解释编剧、角色、场景和画家分工、点击探索与语音生成，记录移动端适配和2026年启动背景；源码采用 AGPL-3.0。未据此推断所有代码由 AI 编写。
+
+### Reverse Lo-fi Anime Girl
+
+- 原作：[Reverse Lo-fi Anime Girl](https://reverse-lofi.qosmo.jp/)
+- 作品年份：2025；精确公开日期：未确认，留空。
+- 本次范围：已核对作者、规则、技术说明和官方体验入口；未实际游玩或核对服务器当前可用额度。
+- [Qosmo 官方作品说明](https://qosmo.jp/en/news/reverse-lo-fi-anime-girl-ai)：说明接提示词的规则、睡眠与跳舞状态、实时音乐生成和情绪估计模型，并列出创作团队。
+- [官方实验目录](https://qosmo.jp/en/web-experiments)：项目被列在 2025 年栏目；没有据此补造具体首发日期。
+- [官方新闻目录](https://qosmo.jp/en/news)：相关介绍文章日期为 2026-01-21；这是介绍文章日期，不等同于目录所列作品年份。
+
+### LLM Concept Lab
+
+- 原作：[LLM Concept Lab](https://conceptual-biome.vercel.app/)
+- 作品年份：未确认；精确公开日期：未确认，留空。
+- 本次范围：已核对官方系列归属与页面控件；未实际调用模型、审计代码或核对长期服务可用性。
+- [Tangible Prompts 官方介绍](https://tangible-prompts.qosmo.jp/en)：明确将 LLM Concept Lab 列为具体实验，说明词语的语义空间探索与节点交互，并链接体验页。
+- [实验页面](https://conceptual-biome.vercel.app/)：页面提供节点搜索、节点标签、可选语境输入和活动记录；没有据此推断后台模型或免费额度。
+- [Qosmo 实验目录](https://qosmo.jp/en/web-experiments)：Tangible Prompts 系列列在 2025 年栏目，具体单项实验首发日未披露。
+
+### THE WELL
+
+- 原作：[THE WELL](https://www.youtube.com/watch?v=eoZyWHLHHLY)
+- 作品年份：2026；精确公开日期：2026-04-30。
+- 本次范围：已核对作者或官方展映页面、作品归属及 AI 参与依据；未完整播放影片，未验证各地区的登录、付费及设备限制。
+- [导演频道的影片](https://www.youtube.com/watch?v=eoZyWHLHHLY)：作品条目署名 Dorian & Daniel，索引元数据显示发布于 2026-04-30；未将网页可索引等同于完整播放通过。
+- [GIFF 官方节目与演职员表](https://giff.mx/epicentro-2026/)：The Well 条目确认 2026 年、5:29 片长、导演身份，并将其列为生成式 AI 叙事短片；编剧、剪辑、声音和配乐均有署名。
+- [Runway 2026 官方获奖页](https://aif.runwayml.com/ja)：列出 THE WELL、Dorian & Daniel、Gold 和故事简介。
+- [导演所属制作方作品集](https://www.whatif.film/)：AI 电影制作工作室的作品集中展示 The Well，并署名导演 Dorian & Daniel。
+
+### A Game About Capybaras Delivering Food
+
+- 原作：[A Game About Capybaras Delivering Food](https://capybara-vibejam26.leocoout.dev/)
+- 作品年份：2026；精确公开日期：未确认，留空。
+- 本次范围：核对作者或官方公开页面与所列制作说明；未实际运行或通关，制作归因依据发布者自述。
+- [官方赛事作品记录](https://vibejam.com/)：官方目录的索引记录包含作品、作者、送餐与堆叠规则，并列出 Claude Code、Tripo3D、Suno、ElevenLabs；赛事要求 AI 辅助编程。
+- [原作入口](https://capybara-vibejam26.leocoout.dev/)：读取到游戏入口、移动/漂移按钮及版本标记；页面同时包含调试控件，未据此声称完成游玩。
+
+### Exquisite Banana
+
+- 原作：[Exquisite Banana](https://aistudio.google.com/app/apps/drive/1ABDfbzu32Xu7JA4CpYtPFGZ28TVBkj6Q?showAssistant=true&showPreview=true)
+- 作品年份：2025；精确公开日期：未确认，留空。
+- 本次范围：已核对作者公开说明和 Live Site 链接；入口要求 Google 登录，未进入账号内体验或核对生成配额。
+- [作者作品页](https://www.mjgomez-saavedra.com/projects/exquisitebanana)：作者标注 2025 年作品，说明绘制、遮挡、AI 续画和揭晓流程，以及 Nano Banana 的使用。
+- [作者提供的体验入口](https://aistudio.google.com/app/apps/drive/1ABDfbzu32Xu7JA4CpYtPFGZ28TVBkj6Q?showAssistant=true&showPreview=true)：来自作者 Live Site 链接；本次打开跳转 Google 登录，未登录或实际生成图像。
+
+### Total Pixel Space
+
+- 原作：[Total Pixel Space](https://www.youtube.com/watch?v=zpAeygE4d1A)
+- 作品年份：2024；精确公开日期：2024-12-22。
+- 本次范围：已核对作者或官方展映页面、作品归属及 AI 参与依据；未完整播放影片，未验证各地区的登录、付费及设备限制。
+- [作者发布的影片](https://www.youtube.com/watch?v=zpAeygE4d1A)：作者频道公开影片条目署名 Jacob Adler；索引元数据显示发布日期为 2024-12-22。
+- [BIFAN 官方作品页](https://www.bifan.kr/eng/program/program_view.asp?actEvent=view&pk_seq=8030&sc_category_seq=8021&sc_num=1)：列出作者、2024 年作品年份与像素空间的思想实验主题，并归入 AI Films 单元。
+- [Runway 官方展映库](https://aif.runwayml.com/screening-room)：列出影片、作者、9:28 片长及 2025 Grand Prix；未据此推断具体生成模型。
+
+### Orbitswarm
+
+- 原作：[Orbitswarm](https://focaccai.itch.io/orbitswarm)
+- 作品年份：2026；精确公开日期：未确认，留空。
+- 本次范围：核对作者或官方公开页面与所列制作说明；未实际运行或通关，制作归因依据发布者自述。
+- [作者作品与工具说明](https://focaccai.itch.io/orbitswarm)：作者公开 HTML5 游戏入口，说明鼠标指挥和星球加成；列出 Copilot/Claude Sonnet 4.5 编程、ChatGPT 封面和 Suno 4.5 音乐。
+- [作者参赛记录](https://itch.io/jam/ai-generated-space-jam-/rate/4253347)：同一作者在提交表中再次列出代码、封面与音乐工具，并链接原作。
+- [赛事日期](https://itch.io/jam/ai-generated-space-jam-)：官方赛事于 2026 年 1–2 月举行并收录 Orbitswarm；仅据此记录年份，未推算作品的精确首发日期。
+
+### Neural Beatbox
+
+- 原作：[Neural Beatbox](https://neuralbeatbox.net/)
+- 作品年份：2019；精确公开日期：未确认，留空。
+- 本次范围：已核对官方项目档案、署名与示例仓库；未授予麦克风权限、录音或实际试听。
+- [作者项目档案](https://qosmo.jp/en/art/neural-beatbox)：档案列为 2019 年，并说明 2020 年扩展多人在线版本；记录声音分段、鼓点分配和节奏生成方法。
+- [官方网页与署名](https://neuralbeatbox.net/)：页面列出开发、机器学习、设计与项目管理署名，并链接公开示例代码。
+- [机器学习示例仓库](https://github.com/QosmoInc/NeuralBeatbox_ML_Examples)：提供音频分类和节奏生成示例，不是完整网站的源码仓库。
+
+### JAILBIRD
+
+- 原作：[JAILBIRD](https://andrewtsalter.com/jailbird)
+- 作品年份：2025；精确公开日期：未确认，留空。
+- 本次范围：已核对作者或官方展映页面、作品归属及 AI 参与依据；未完整播放影片，未验证各地区的登录、付费及设备限制。
+- [作者作品与制作说明](https://andrewtsalter.com/jailbird)：页面标注 EXPERIMENTAL AI DOCUMENTARY、04/25，并说明分镜到 AI 影像的流程；仅有月份，未填写精确发布日期。
+- [Runway 官方展映库](https://aif.runwayml.com/screening-room)：列出 Andrew Salter、2:49 片长和 2025 Gold。
+
+### Oasis
+
+- 原作：[Oasis](https://oasis.decart.ai/)
+- 作品年份：2024；精确公开日期：2024-10-31。
+- 本次范围：核对作者或官方公开页面与所列制作说明；未实际运行或通关，制作归因依据发布者自述。
+- [官方项目与日期](https://oasis-model.github.io/)：官方联合项目页日期为 2024-10-31，解释键盘条件输入、实时生成和模型结构，并链接在线演示。
+- [官方演示入口](https://oasis.decart.ai/)：官方项目链接的演示地址跳转至欢迎页面；本次仅核对入口，未运行体验或确认账号、费用要求。
+
+### CATROOMS
+
+- 原作：[CATROOMS](https://focaccai.itch.io/catrooms)
+- 作品年份：2026；精确公开日期：2026-10-30。
+- 本次范围：核对作者或官方公开页面与所列制作说明；未实际运行或通关，制作归因依据发布者自述。
+- [作者作品与发布记录](https://focaccai.itch.io/catrooms)：原作页显示 2026-10-30 发布，说明约六至十分钟的第一人称探索、键鼠和触屏操作，并勾选代码/画面/声音的 AI 披露。
+- [作者制作工具披露](https://itch.io/jam/ai-jam-5/rate/5261946)：参赛说明列出 Claude 用于代码、3D 模型、剧本、纹理；ChatGPT 用于图片和部分纹理；ElevenLabs 用于配音与部分声音；Suno 用于音乐。
+
+### A Face Only A Mother Could Love
+
+- 原作：[A Face Only A Mother Could Love](https://www.youtube.com/watch?v=wytfCS-N8Sk)
+- 作品年份：2026；精确公开日期：2026-04-23。
+- 本次范围：已核对作者或官方展映页面、作品归属及 AI 参与依据；未完整播放影片，未验证各地区的登录、付费及设备限制。
+- [作者频道的影片与制作说明](https://www.youtube.com/watch?v=wytfCS-N8Sk)：作者频道发布原版影片；索引元数据显示 2026-04-23，并附视觉、旁白和配乐的 AI 制作自述。
+- [作者提交的 FilmFreeway 项目页](https://filmfreeway.com/AFaceOnlyAMotherCouldLove)：列出 Robert Gaudette 的导演、编剧、制片署名、7:50 片长和完成日期；导演声明披露 AI 角色设定、ElevenLabs 语音与 Suno 配乐。
+- [Runway 2026 官方获奖页](https://aif.runwayml.com/ja)：官方列出作品、作者和 Grand Prix，独立核对获奖归属。
+
+### HALDANE-4
+
+- 原作：[HALDANE-4](https://haldane4.denisbondare.com/)
+- 作品年份：2026；精确公开日期：未确认，留空。
+- 本次范围：核对作者或官方公开页面与所列制作说明；未实际运行或通关，制作归因依据发布者自述。
+- [作品入口与操作说明](https://haldane4.denisbondare.com/)：官方页面写明 WASD 推进、鼠标旋转、空格控制灯光，建议耳机与桌面设备。
+- [官方赛事记录](https://vibejam.com/)：赛事官方目录的索引记录列出 HALDANE-4、@denisbondare、南极冰下 ASCII 叙事和 Cursor；未据此扩展为未公开的模型或素材归因。
+
+### 本轮保留候选与排除理由
+
+Imaginary Soundscape 原站说明 Street View 已停用；部分电影节作品的在线放映期已经结束，未将过期放映页当作长期观看入口。Bloom Cycles 与 Marble and Metal Visualisers 找到近期展示线索，但独立作品的作者、AI 环节或访问条件尚未核清，暂不发布。WenWare 作者页面访问受限，待取得可核验的一手说明再考虑收录。

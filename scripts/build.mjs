@@ -6,7 +6,7 @@ import { escapeHTML as e, CATEGORY, ROLE, COST, LOGIN, DEVICE, MODES } from '../
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const out = path.join(root, 'dist');
-const siteURL = new URL(process.env.SITE_URL || 'https://zz11ss11zz.github.io/ai4fun/');
+const siteURL = new URL(process.env.SITE_URL || 'https://zz11ss11zz.github.io/AI4FUN/');
 if (siteURL.protocol !== 'https:' || siteURL.username || siteURL.password) throw new Error('SITE_URL must be a public HTTPS URL');
 siteURL.search = ''; siteURL.hash = '';
 if (!siteURL.pathname.endsWith('/')) siteURL.pathname += '/';

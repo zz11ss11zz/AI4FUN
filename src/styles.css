@@ -37,3 +37,5 @@ dialog{color:var(--text);background:var(--surface);border:1px solid var(--line);
 #main-content{overflow-x:clip}.orbit-one{width:86%;height:76%}.orbit-two{width:70%;height:92%}.floating-note{bottom:113px;left:-18px}
 @media(max-width:800px){.floating-note{bottom:102px;left:-5px}}
 @media(max-width:560px){.floating-note{bottom:107px;left:-10px}.spotlight-visual{aspect-ratio:1.8}}
+
+@media(max-width:560px){.site-header .wordmark{font-size:24px;letter-spacing:-1.2px;gap:7px}.site-header .wordmark img{width:27px;height:27px}}

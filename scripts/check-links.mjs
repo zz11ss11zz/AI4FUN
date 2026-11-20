@@ -60,7 +60,7 @@ function requestOnce(url, address, method, timeoutMs) {
         if (options?.all) callback(null, [address]);
         else callback(null, address.address, address.family);
       },
-      headers: { 'User-Agent': 'AI4FUN-LinkReview/1.0 (+https://github.com/zz11ss11zz/ai4fun)', Accept: 'text/html,application/json;q=0.8,*/*;q=0.1', ...(method === 'GET' ? { Range: 'bytes=0-0' } : {}) }
+      headers: { 'User-Agent': 'AI4FUN-LinkReview/1.0 (+https://github.com/zz11ss11zz/AI4FUN)', Accept: 'text/html,application/json;q=0.8,*/*;q=0.1', ...(method === 'GET' ? { Range: 'bytes=0-0' } : {}) }
     }, (response) => {
       finish(resolveResult, { status: response.statusCode || 0, location: response.headers.location });
       response.destroy();

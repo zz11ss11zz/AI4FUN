@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  SITE_URL: https://zz11ss11zz.github.io/ai4fun/
+  SITE_URL: https://zz11ss11zz.github.io/AI4FUN/
 
 jobs:
   build:

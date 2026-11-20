@@ -4,11 +4,11 @@
 
 一个中文优先的精选作品库，涵盖互动与界面、游戏、影像和音乐。作品详情保留原作者、原作入口、AI 参与环节、公开制作资料和核验时间；收藏保存在读者自己的浏览器中。
 
-**[打开 AI4FUN](https://zz11ss11zz.github.io/ai4fun/) · [推荐作品](https://github.com/zz11ss11zz/ai4fun/issues/new?template=project.yml) · [推荐信源](https://github.com/zz11ss11zz/ai4fun/issues/new?template=source.yml)**
+**[打开 AI4FUN](https://zz11ss11zz.github.io/AI4FUN/) · [推荐作品](https://github.com/zz11ss11zz/AI4FUN/issues/new?template=project.yml) · [推荐信源](https://github.com/zz11ss11zz/AI4FUN/issues/new?template=source.yml)**
 
-首版包含 16 件作品、6 个信源和 3 个主题合集。界面支持手机浏览、浅色与深色模式。
+当前包含 **34 件作品、11 个信源和 3 个主题合集**；2026-11-20 扩充 18 件作品和 5 个信源。界面支持手机浏览、浅色与深色模式。
 
-## 首版提供什么
+## 网站提供什么
 
 - 搜索与分类筛选，按体验条件发现作品。
 - 编辑精选、主题合集和随机发现。
@@ -17,7 +17,7 @@
 - 浏览器本地收藏；无需为浏览目录注册账号。
 - 结构化作品库与信源登记，方便持续添加和审阅。
 
-初始条目采用 `source-reviewed`（来源已核对）级别，表示编辑核对了所列公开说明，**不代表已经逐一完整试玩、观看或验证全部功能**。如有实际体验记录，必须注明设备、浏览器、日期和验证范围。
+当前条目采用 `source-reviewed`（来源已核对）级别，表示编辑核对了所列公开说明，**不代表已经逐一完整试玩、观看或验证全部功能**。如有实际体验记录，必须注明设备、浏览器、日期和验证范围。
 
 ## 本地运行
 
@@ -65,7 +65,7 @@ npm run source:add -- \
 | `scripts/validate.mjs` | 数据完整性、链接格式、重复与引用校验 |
 | `scripts/add-source.mjs` | 安全、原子地登记新来源 |
 | `scripts/check-links.mjs` | 可选的外链可访问性检查 |
-| `docs/content-sources.md` | 初始作品的事实依据与核验边界 |
+| `docs/content-sources.md` | 作品事实依据、核验边界与扩充记录 |
 
 ### 可选的外链检查
 

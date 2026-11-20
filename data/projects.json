@@ -1,5 +1,1369 @@
 [
   {
+    "id": "mist-locked-gate",
+    "title": "雾锁山门",
+    "subtitle": "雪夜山门里，打出一套自己的剑招",
+    "description": "歸藏制作的国风俯视角 3D 动作演示：穿过雾雪与石灯，经历遭遇战和 Boss 战，尝试连招、闪避与弹反。作者公开了 AI 编程、设定图转 3D 模型以及反复测试修改的制作过程。",
+    "category": "game",
+    "creator": {
+      "name": "歸藏（op7418）",
+      "url": "https://github.com/op7418"
+    },
+    "year": 2026,
+    "publishedAt": null,
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "free",
+      "login": "none",
+      "device": "both",
+      "mode": "play"
+    },
+    "aiRole": [
+      "code",
+      "visual"
+    ],
+    "tools": [
+      "Fable 5.2（作者披露）",
+      "即梦",
+      "Tripo",
+      "three.js"
+    ],
+    "tags": [
+      "中文体验",
+      "国风动作",
+      "3D",
+      "有制作流程"
+    ],
+    "links": {
+      "primary": "https://op7418.github.io/guizang-game-skill/",
+      "source": "https://github.com/op7418/guizang-game-skill",
+      "code": null,
+      "process": "https://github.com/op7418/guizang-game-skill"
+    },
+    "evidence": [
+      {
+        "label": "作者制作复盘",
+        "url": "https://github.com/op7418/guizang-game-skill",
+        "note": "作者将《雾锁山门》作为实际演示，披露 Fable 5.2 辅助开发、即梦设定图与 Tripo 模型，以及多轮测试、返工与修改。仓库 main 的 Skill 许可与演示游戏素材权利不同。"
+      },
+      {
+        "label": "官方可玩演示",
+        "url": "https://op7418.github.io/guizang-game-skill/",
+        "note": "页面有点击开始、键鼠与触屏操作提示，要求 WebGL 2；链接回作者制作过程。没有据页面抓取结果声称已实际跑通战斗。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "核对作者官方仓库、制作归因和在线演示操作说明；未加载并操作 WebGL 战斗场景。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "一段完整的小型战斗体验，配上作者公开的返工过程，可以同时看成品表现和 AI 做游戏时真正需要打磨的细节。",
+    "firstStep": "打开原作后点击开始。电脑用 WASD 移动、鼠标攻击和格挡、空格闪避；手机使用画面上的触屏控件。",
+    "caveat": "需要支持 WebGL 2 的较新浏览器，首次素材加载可能需要等待。演示游戏的美术、模型和声音等保留作者权利；公开制作 Skill 不等于游戏素材可自由再发布。",
+    "featured": true,
+    "collectionIds": [
+      "made-with-ai"
+    ],
+    "visual": "garden",
+    "accent": "#c6e0d0",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "核对作者演示与 AI 制作复盘后收录"
+      }
+    ]
+  },
+  {
+    "id": "space-dj",
+    "title": "Space DJ",
+    "subtitle": "驾驶一艘飞船，穿梭在音乐风格之间",
+    "description": "在标记着不同音乐风格的三维星空里驾驶飞船，附近的风格会共同影响实时生成的音乐。还可以开启自动驾驶，让声音随航线慢慢变化。",
+    "category": "music",
+    "creator": {
+      "name": "Google Magenta",
+      "url": "https://magenta.withgoogle.com/"
+    },
+    "year": 2025,
+    "publishedAt": "2025-11-03",
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "unknown",
+      "login": "unknown",
+      "device": "unknown",
+      "mode": "play"
+    },
+    "aiRole": [
+      "runtime"
+    ],
+    "tools": [
+      "Lyria RealTime",
+      "MagentaRT",
+      "AI Studio"
+    ],
+    "tags": [
+      "音乐星空",
+      "实时生成",
+      "三维交互"
+    ],
+    "links": {
+      "primary": "https://spacedj-363947264390.us-west1.run.app/",
+      "source": "https://magenta.withgoogle.com/spacedj-announce",
+      "code": "https://aistudio.google.com/apps/bundled/spacedj",
+      "process": "https://magenta.withgoogle.com/spacedj-announce"
+    },
+    "evidence": [
+      {
+        "label": "Magenta 官方发布说明",
+        "url": "https://magenta.withgoogle.com/spacedj-announce",
+        "note": "2025-11-03 发布，说明飞船位置影响音乐风格权重，由 Lyria RealTime 生成音频；提供体验与 AI Studio 复刻入口。"
+      },
+      {
+        "label": "官方体验入口",
+        "url": "https://spacedj-363947264390.us-west1.run.app/",
+        "note": "地址来自官方发布页；本次能获取应用页面，但未实际生成或试听音乐。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "已核对官方功能、日期与链接；未实际试听、测试设备兼容性或核对实时服务配额。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "把抽象的音乐风格关系变成可以飞行的地图，探索方向本身就是混音操作。",
+    "firstStep": "进入原作后先从一个熟悉的音乐风格开始，再靠近另一颗星，或尝试自动驾驶。",
+    "caveat": "需要可用的实时音频服务；当前费用、账号和地区条件未完整核对。AI Studio 的源码复刻入口会要求登录 Google 账号。",
+    "featured": true,
+    "collectionIds": [
+      "five-minutes",
+      "open-source"
+    ],
+    "visual": "orbit",
+    "accent": "#b8caff",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "收录并核对 Magenta 官方发布说明"
+      }
+    ]
+  },
+  {
+    "id": "dear-stranger",
+    "title": "Dear “Stranger” · 浮生若梦",
+    "subtitle": "穿过梦境与平行世界，寻找没能相见的祖母",
+    "description": "Junie Lau 让 Eden 在列车、季节和梦境之间追寻祖母。Google Flow TV 的官方作品页提供观看入口，并说明影片以 Flow 配合其他工具与技法完成；导演官网将它列为 2025 年 5 月 20 日上线的作品。",
+    "category": "film",
+    "creator": {
+      "name": "Junie Lau",
+      "url": "https://junielau.com/about"
+    },
+    "year": 2025,
+    "publishedAt": "2025-05-20",
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "unknown",
+      "login": "unknown",
+      "device": "unknown",
+      "mode": "watch"
+    },
+    "aiRole": [
+      "visual"
+    ],
+    "tools": [
+      "Google Flow"
+    ],
+    "tags": [
+      "平行世界",
+      "亲情",
+      "华人创作者",
+      "AI辅助制作"
+    ],
+    "links": {
+      "primary": "https://labs.google/flow/tv/short-films?i=dear-stranger",
+      "source": "https://labs.google/flow/tv/short-films?i=dear-stranger",
+      "code": null,
+      "process": "https://blog.google/innovation-and-ai/products/google-flow-veo-ai-filmmaking-tool/"
+    },
+    "evidence": [
+      {
+        "label": "Google Flow TV 官方影片页",
+        "url": "https://labs.google/flow/tv/short-films?i=dear-stranger",
+        "note": "明确影片标题、Junie Lau 署名、故事梗概和 Watch 入口，并注明 Flow 与其他工具、技法共同参与。"
+      },
+      {
+        "label": "导演官方项目记录",
+        "url": "https://junielau.com/about",
+        "note": "Selected Projects 将 Dear Stranger 的 Flow TV 上线日期标为 2025.05.20。"
+      },
+      {
+        "label": "Google 官方创作者介绍",
+        "url": "https://blog.google/innovation-and-ai/products/google-flow-veo-ai-filmmaking-tool/",
+        "note": "Flow 发布介绍中点名这部作品与导演，说明祖母和孙女跨越梦境世界的故事。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "已核对作者或官方展映页面、作品归属及 AI 参与依据；未完整播放影片，未验证各地区的登录、付费及设备限制。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "平行世界的视觉变化有一个明确的情感目的：靠近一个从未真正认识的亲人。适合关注中文创作者如何用生成影像讲故事的人。",
+    "firstStep": "打开官方影片页，选择 Watch；留意不同世界之间的转场如何保持祖孙关系这条线索。",
+    "caveat": "官方只明确 Flow 与其他技法共同参与，未在本次核验中确认完整模型、后期工具或字幕清单；影片播放权限与设备兼容性未实测。",
+    "featured": true,
+    "collectionIds": [
+      "made-with-ai"
+    ],
+    "visual": "film",
+    "accent": "#dba7bc",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "收录作品并核对官方来源与 AI 参与依据"
+      }
+    ]
+  },
+  {
+    "id": "next-token",
+    "title": "NEXT TOKEN",
+    "subtitle": "这一次，轮到你逐个 token 回复人类",
+    "description": "在九段短对话里扮演文字光标：查看对方世界中的线索，管理逐渐占满的上下文，再从候选词中拼出回复。作者公开了交给 Claude 的创作提示，并用自己的文本化美术与声音库生成素材。",
+    "category": "game",
+    "creator": {
+      "name": "Lukas Golino",
+      "url": "https://lukasgolino.com/"
+    },
+    "year": null,
+    "publishedAt": null,
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "free",
+      "login": "none",
+      "device": "desktop",
+      "mode": "play"
+    },
+    "aiRole": [
+      "code",
+      "visual",
+      "audio"
+    ],
+    "tools": [
+      "Claude",
+      "PAGAN",
+      "SEGAN",
+      "Godot"
+    ],
+    "tags": [
+      "AI辅助制作",
+      "互动叙事",
+      "语言模型",
+      "文字游戏"
+    ],
+    "links": {
+      "primary": "https://next-token.dev/play.html",
+      "source": "https://next-token.dev/",
+      "code": null,
+      "process": "https://lukasgolino.com/projects.html"
+    },
+    "evidence": [
+      {
+        "label": "作者作品说明",
+        "url": "https://next-token.dev/",
+        "note": "说明九段对话、逐 token 选词和上下文机制；披露 Claude 制作、PAGAN 美术及 SEGAN 音乐音效，并公开原始提示。"
+      },
+      {
+        "label": "作者项目目录",
+        "url": "https://lukasgolino.com/projects.html",
+        "note": "Lukas Golino 的个人项目目录直接列出 NEXT TOKEN，并链接同一作品与游玩页。"
+      },
+      {
+        "label": "浏览器入口",
+        "url": "https://next-token.dev/play.html",
+        "note": "官方说明支持方向键与空格或鼠标，进度保存在本浏览器；首次加载约 50 MB。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "核对作者或官方公开页面与所列制作说明；未实际运行或通关，制作归因依据发布者自述。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "把常见的聊天界面翻过来，让玩家体验选择词语、取舍线索与遗忘上下文的过程。",
+    "firstStep": "打开后点击游戏获得键盘焦点，用方向键与空格或鼠标选择。",
+    "caveat": "英文文本较多；作者估计完整体验约 30–40 分钟，首次加载约 50 MB。作品设定不代表模型具有主观感受；未找到明确首发日期。",
+    "featured": true,
+    "collectionIds": [
+      "made-with-ai"
+    ],
+    "visual": "words",
+    "accent": "#d6e4ff",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "新增档案并核对官方来源"
+      }
+    ]
+  },
+  {
+    "id": "infiplot",
+    "title": "InfiPlot",
+    "subtitle": "故事往哪走，画面就在哪里生长",
+    "description": "从一句开场或一个故事主题出发，让 AI 在游玩时续写剧情、绘制场景并生成角色声音。可以点击画面探索，也能改变画风；中文界面把多模态模型变成一场可以参与的视觉小说。",
+    "category": "game",
+    "creator": {
+      "name": "InfiPlot 团队",
+      "url": "https://github.com/zonghaoyuan/infiplot"
+    },
+    "year": 2026,
+    "publishedAt": null,
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "free",
+      "login": "unknown",
+      "device": "both",
+      "mode": "play"
+    },
+    "aiRole": [
+      "runtime"
+    ],
+    "tools": [
+      "多智能体编剧与场景生成",
+      "可配置文本、图像与配音模型"
+    ],
+    "tags": [
+      "中文体验",
+      "互动叙事",
+      "多模态",
+      "开源"
+    ],
+    "links": {
+      "primary": "https://infiplot.com/",
+      "source": "https://github.com/zonghaoyuan/infiplot",
+      "code": "https://github.com/zonghaoyuan/infiplot",
+      "process": "https://github.com/zonghaoyuan/infiplot/blob/main/README.en.md"
+    },
+    "evidence": [
+      {
+        "label": "官方体验页",
+        "url": "https://infiplot.com/",
+        "note": "中文页面提供故事开场、风格和声音选项；注明公测期间免费、生成稳定性可能随并发波动。此说明不承诺长期免费。"
+      },
+      {
+        "label": "官方源码与机制说明",
+        "url": "https://github.com/zonghaoyuan/infiplot",
+        "note": "README 解释编剧、角色、场景和画家分工、点击探索与语音生成，记录移动端适配和2026年启动背景；源码采用 AGPL-3.0。未据此推断所有代码由 AI 编写。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "核对官方体验页和项目 README；未提交故事生成、未测试完整剧情或模型额度，账号要求未确认。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "选择不再只通向固定分支：下一幕文字、图像与声音都能随你的探索变化，适合感受 AI 原生叙事的可能性。",
+    "firstStep": "从官网选一个故事开场，或输入自己的原创设定，再选择画风；生成体验以当时的公测服务状态为准。",
+    "caveat": "公测服务可能等待或波动；自行部署需要配置模型服务，可能产生调用费用。具体账号和额度要求以原站为准。",
+    "featured": false,
+    "collectionIds": [
+      "open-source"
+    ],
+    "visual": "world",
+    "accent": "#85c7ff",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "核对官方中文体验入口与开源说明后收录"
+      }
+    ]
+  },
+  {
+    "id": "reverse-lofi-anime-girl",
+    "title": "Reverse Lo-fi Anime Girl",
+    "subtitle": "接住提示词，让画面里的女孩继续学习",
+    "description": "接住不断落下的提示词，改变实时生成的背景音乐。音乐太放松，女孩就睡着；太适合跳舞，她又会分心。玩家的任务是把音乐维持在适合学习的状态。",
+    "category": "game",
+    "creator": {
+      "name": "Qosmo / Nao Tokui 团队",
+      "url": "https://qosmo.jp/en/"
+    },
+    "year": 2025,
+    "publishedAt": null,
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "unknown",
+      "login": "unknown",
+      "device": "unknown",
+      "mode": "play"
+    },
+    "aiRole": [
+      "runtime"
+    ],
+    "tools": [
+      "Magenta Realtime",
+      "音乐情绪估计模型"
+    ],
+    "tags": [
+      "音乐小游戏",
+      "接提示词",
+      "Lo-fi"
+    ],
+    "links": {
+      "primary": "https://reverse-lofi.qosmo.jp/",
+      "source": "https://qosmo.jp/en/news/reverse-lo-fi-anime-girl-ai",
+      "code": null,
+      "process": "https://qosmo.jp/en/news/reverse-lo-fi-anime-girl-ai"
+    },
+    "evidence": [
+      {
+        "label": "Qosmo 官方作品说明",
+        "url": "https://qosmo.jp/en/news/reverse-lo-fi-anime-girl-ai",
+        "note": "说明接提示词的规则、睡眠与跳舞状态、实时音乐生成和情绪估计模型，并列出创作团队。"
+      },
+      {
+        "label": "官方实验目录",
+        "url": "https://qosmo.jp/en/web-experiments",
+        "note": "项目被列在 2025 年栏目；没有据此补造具体首发日期。"
+      },
+      {
+        "label": "官方新闻目录",
+        "url": "https://qosmo.jp/en/news",
+        "note": "相关介绍文章日期为 2026-01-21；这是介绍文章日期，不等同于目录所列作品年份。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "已核对作者、规则、技术说明和官方体验入口；未实际游玩或核对服务器当前可用额度。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "把听音乐学习的熟悉场景反过来：你负责忙碌，让虚拟角色安静学习。",
+    "firstStep": "打开游戏，观察角色状态，再选择能把音乐拉回合适情绪的提示词。",
+    "caveat": "官方目录列为 2025 年，介绍文章发表于 2026 年，精确首发日未确认；实时生成效果和访问条件以原作当前状态为准。",
+    "featured": false,
+    "collectionIds": [
+      "five-minutes"
+    ],
+    "visual": "sound",
+    "accent": "#ffd99b",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "收录并区分作品年份与介绍文章日期"
+      }
+    ]
+  },
+  {
+    "id": "llm-concept-lab",
+    "title": "LLM Concept Lab",
+    "subtitle": "把词语放进空间，沿着联想继续探索",
+    "description": "Qosmo 的 Tangible Prompts 系列实验之一。输入一个概念，在可探索的节点空间里寻找含义与意外联系，试着把对话框中的文字变成可以观察和操作的对象。",
+    "category": "interactive",
+    "creator": {
+      "name": "Qosmo",
+      "url": "https://qosmo.jp/en/"
+    },
+    "year": null,
+    "publishedAt": null,
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "unknown",
+      "login": "unknown",
+      "device": "unknown",
+      "mode": "play"
+    },
+    "aiRole": [
+      "runtime"
+    ],
+    "tools": [
+      "LLM（官方未明确固定模型）"
+    ],
+    "tags": [
+      "空间界面",
+      "概念探索",
+      "联想"
+    ],
+    "links": {
+      "primary": "https://conceptual-biome.vercel.app/",
+      "source": "https://tangible-prompts.qosmo.jp/en",
+      "code": null,
+      "process": "https://tangible-prompts.qosmo.jp/en"
+    },
+    "evidence": [
+      {
+        "label": "Tangible Prompts 官方介绍",
+        "url": "https://tangible-prompts.qosmo.jp/en",
+        "note": "明确将 LLM Concept Lab 列为具体实验，说明词语的语义空间探索与节点交互，并链接体验页。"
+      },
+      {
+        "label": "实验页面",
+        "url": "https://conceptual-biome.vercel.app/",
+        "note": "页面提供节点搜索、节点标签、可选语境输入和活动记录；没有据此推断后台模型或免费额度。"
+      },
+      {
+        "label": "Qosmo 实验目录",
+        "url": "https://qosmo.jp/en/web-experiments",
+        "note": "Tangible Prompts 系列列在 2025 年栏目，具体单项实验首发日未披露。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "已核对官方系列归属与页面控件；未实际调用模型、审计代码或核对长期服务可用性。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "文字不必只是一来一回的聊天；这个界面可以启发概念地图、头脑风暴和可视化交互的设计。",
+    "firstStep": "给节点填一个感兴趣的词，按需加入语境，再查看相关概念和节点信息。",
+    "caveat": "这是实验性界面；模型返回、费用、账号要求和手机兼容性未实测。官方将系列列于 2025 年，具体实验的首发年份与日期未确认。",
+    "featured": false,
+    "collectionIds": [],
+    "visual": "words",
+    "accent": "#c7e6df",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "收录 Tangible Prompts 中的具体概念空间实验"
+      }
+    ]
+  },
+  {
+    "id": "the-well",
+    "title": "THE WELL",
+    "subtitle": "兔子侦探，追查雪地里的一口井",
+    "description": "Dorian & Daniel 把动物寓言拍成悬疑短片：雪覆盖的房车营地里，一只狼死在井底，兔子的调查让「意外」的说法出现裂缝。官方电影节资料将它列为生成式 AI 叙事短片，获得 2026 Runway AI Festival Gold。",
+    "category": "film",
+    "creator": {
+      "name": "Dorian & Daniel",
+      "url": "https://www.whatif.film/"
+    },
+    "year": 2026,
+    "publishedAt": "2026-04-30",
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "unknown",
+      "login": "unknown",
+      "device": "unknown",
+      "mode": "watch"
+    },
+    "aiRole": [
+      "visual"
+    ],
+    "tools": [],
+    "tags": [
+      "动物寓言",
+      "悬疑",
+      "生成式短片",
+      "AI电影节"
+    ],
+    "links": {
+      "primary": "https://www.youtube.com/watch?v=eoZyWHLHHLY",
+      "source": "https://giff.mx/epicentro-2026/",
+      "code": null,
+      "process": null
+    },
+    "evidence": [
+      {
+        "label": "导演频道的影片",
+        "url": "https://www.youtube.com/watch?v=eoZyWHLHHLY",
+        "note": "作品条目署名 Dorian & Daniel，索引元数据显示发布于 2026-04-30；未将网页可索引等同于完整播放通过。"
+      },
+      {
+        "label": "GIFF 官方节目与演职员表",
+        "url": "https://giff.mx/epicentro-2026/",
+        "note": "The Well 条目确认 2026 年、5:29 片长、导演身份，并将其列为生成式 AI 叙事短片；编剧、剪辑、声音和配乐均有署名。"
+      },
+      {
+        "label": "Runway 2026 官方获奖页",
+        "url": "https://aif.runwayml.com/ja",
+        "note": "列出 THE WELL、Dorian & Daniel、Gold 和故事简介。"
+      },
+      {
+        "label": "导演所属制作方作品集",
+        "url": "https://www.whatif.film/",
+        "note": "AI 电影制作工作室的作品集中展示 The Well，并署名导演 Dorian & Daniel。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "已核对作者或官方展映页面、作品归属及 AI 参与依据；未完整播放影片，未验证各地区的登录、付费及设备限制。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "用动物角色和封闭场景搭出一场可跟随的调查；值得观察生成影像怎样维持人物关系、线索和悬念。",
+    "firstStep": "打开导演频道的 The Well，从「井里的狼」这个谜面开始看，留意角色对同一件事的不同说法。",
+    "caveat": "包含虚构死亡与犯罪调查情节；本次一手资料未确认完整 AI 工具链，未据电影节名称推断使用 Runway 模型，字幕和播放条件未实测。",
+    "featured": false,
+    "collectionIds": [
+      "made-with-ai"
+    ],
+    "visual": "film",
+    "accent": "#a4b9cb",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "收录作品并核对官方来源与 AI 参与依据"
+      }
+    ]
+  },
+  {
+    "id": "capybaras-delivering-food",
+    "title": "A Game About Capybaras Delivering Food",
+    "subtitle": "骑上小摩托，别把水豚的外卖甩掉",
+    "description": "在水豚城市里接单送餐，货物会越堆越高，转弯和漂移都要留心。Vibe Jam 2026 的官方作品记录署名 @leocooout，并列出 Claude Code、Tripo3D、Suno 与 ElevenLabs 等制作工具。",
+    "category": "game",
+    "creator": {
+      "name": "@leocooout",
+      "url": "https://x.com/leocooout"
+    },
+    "year": 2026,
+    "publishedAt": null,
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "unknown",
+      "login": "unknown",
+      "device": "both",
+      "mode": "play"
+    },
+    "aiRole": [
+      "code"
+    ],
+    "tools": [
+      "Claude Code",
+      "Tripo3D",
+      "Suno",
+      "ElevenLabs",
+      "Three.js"
+    ],
+    "tags": [
+      "AI辅助制作",
+      "水豚",
+      "送餐",
+      "开放世界"
+    ],
+    "links": {
+      "primary": "https://capybara-vibejam26.leocoout.dev/",
+      "source": "https://vibejam.com/",
+      "code": null,
+      "process": "https://vibejam.com/"
+    },
+    "evidence": [
+      {
+        "label": "官方赛事作品记录",
+        "url": "https://vibejam.com/",
+        "note": "官方目录的索引记录包含作品、作者、送餐与堆叠规则，并列出 Claude Code、Tripo3D、Suno、ElevenLabs；赛事要求 AI 辅助编程。"
+      },
+      {
+        "label": "原作入口",
+        "url": "https://capybara-vibejam26.leocoout.dev/",
+        "note": "读取到游戏入口、移动/漂移按钮及版本标记；页面同时包含调试控件，未据此声称完成游玩。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "核对作者或官方公开页面与所列制作说明；未实际运行或通关，制作归因依据发布者自述。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "送餐路线和摇摇欲坠的货物堆叠，让一个可爱的角色设定变成有操作感的小游戏。",
+    "firstStep": "打开原作，按游戏提示进入送餐；触屏页面提供方向和 DRIFT 按钮。",
+    "caveat": "按赛事与作者公开记录归因 AI 工具，未审计开发过程。当前收费、账号要求和联机稳定性未实测；设备支持依据官方目录与页面控件。",
+    "featured": false,
+    "collectionIds": [
+      "five-minutes",
+      "made-with-ai"
+    ],
+    "visual": "town",
+    "accent": "#c5eadb",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "新增档案并核对官方来源"
+      }
+    ]
+  },
+  {
+    "id": "exquisite-banana",
+    "title": "Exquisite Banana",
+    "subtitle": "你画一截，AI 接一截，最后一起揭晓",
+    "description": "把超现实主义的折纸接画游戏搬到生成式 AI 里。先画或描述角色的一部分，再遮住大部分画面，只留一条边让模型续画，最后揭晓拼接出的奇怪生物。",
+    "category": "interactive",
+    "creator": {
+      "name": "MJ Gomez-Saavedra",
+      "url": "https://www.mjgomez-saavedra.com/"
+    },
+    "year": 2025,
+    "publishedAt": null,
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "unknown",
+      "login": "required",
+      "device": "unknown",
+      "mode": "play"
+    },
+    "aiRole": [
+      "runtime"
+    ],
+    "tools": [
+      "Gemini 2.5 Flash Image（Nano Banana）"
+    ],
+    "tags": [
+      "接画游戏",
+      "超现实",
+      "人机共创"
+    ],
+    "links": {
+      "primary": "https://aistudio.google.com/app/apps/drive/1ABDfbzu32Xu7JA4CpYtPFGZ28TVBkj6Q?showAssistant=true&showPreview=true",
+      "source": "https://www.mjgomez-saavedra.com/projects/exquisitebanana",
+      "code": null,
+      "process": "https://www.mjgomez-saavedra.com/projects/exquisitebanana"
+    },
+    "evidence": [
+      {
+        "label": "作者作品页",
+        "url": "https://www.mjgomez-saavedra.com/projects/exquisitebanana",
+        "note": "作者标注 2025 年作品，说明绘制、遮挡、AI 续画和揭晓流程，以及 Nano Banana 的使用。"
+      },
+      {
+        "label": "作者提供的体验入口",
+        "url": "https://aistudio.google.com/app/apps/drive/1ABDfbzu32Xu7JA4CpYtPFGZ28TVBkj6Q?showAssistant=true&showPreview=true",
+        "note": "来自作者 Live Site 链接；本次打开跳转 Google 登录，未登录或实际生成图像。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "已核对作者公开说明和 Live Site 链接；入口要求 Google 登录，未进入账号内体验或核对生成配额。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "刻意限制 AI 看见的信息，让续画的误解变成游戏乐趣，适合研究协作式生成界面。",
+    "firstStep": "先在作者页查看演示，再按 Live Site 进入 AI Studio；从角色的头部或身体一段开始。",
+    "caveat": "体验入口在 Google AI Studio，需要 Google 账号，地区资格、模型调用费用和额度以原平台为准；未实测完整游戏。",
+    "featured": false,
+    "collectionIds": [],
+    "visual": "drawing",
+    "accent": "#ffcabc",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "收录作者的接画实验，并标记 Google 登录要求"
+      }
+    ]
+  },
+  {
+    "id": "total-pixel-space",
+    "title": "Total Pixel Space",
+    "subtitle": "如果所有可能的画面，都藏在像素排列里",
+    "description": "Jacob Adler 的影像随笔把像素排列变成一场思想实验：我们见过、错过，甚至无法想象的画面，能否放进同一片图像空间？生成影像与旁白共同讨论记忆、创造和可能的人生。作品发表于 2024 年，随后获得 2025 Runway AI Film Festival Grand Prix。",
+    "category": "film",
+    "creator": {
+      "name": "Jacob Adler",
+      "url": "https://www.jacobadler.us/"
+    },
+    "year": 2024,
+    "publishedAt": "2024-12-22",
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "unknown",
+      "login": "unknown",
+      "device": "unknown",
+      "mode": "watch"
+    },
+    "aiRole": [
+      "visual"
+    ],
+    "tools": [],
+    "tags": [
+      "影像随笔",
+      "像素",
+      "哲学",
+      "AI电影节"
+    ],
+    "links": {
+      "primary": "https://www.youtube.com/watch?v=zpAeygE4d1A",
+      "source": "https://aif.runwayml.com/screening-room",
+      "code": null,
+      "process": null
+    },
+    "evidence": [
+      {
+        "label": "作者发布的影片",
+        "url": "https://www.youtube.com/watch?v=zpAeygE4d1A",
+        "note": "作者频道公开影片条目署名 Jacob Adler；索引元数据显示发布日期为 2024-12-22。"
+      },
+      {
+        "label": "BIFAN 官方作品页",
+        "url": "https://www.bifan.kr/eng/program/program_view.asp?actEvent=view&pk_seq=8030&sc_category_seq=8021&sc_num=1",
+        "note": "列出作者、2024 年作品年份与像素空间的思想实验主题，并归入 AI Films 单元。"
+      },
+      {
+        "label": "Runway 官方展映库",
+        "url": "https://aif.runwayml.com/screening-room",
+        "note": "列出影片、作者、9:28 片长及 2025 Grand Prix；未据此推断具体生成模型。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "已核对作者或官方展映页面、作品归属及 AI 参与依据；未完整播放影片，未验证各地区的登录、付费及设备限制。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "它把 AI 影像的组合能力转化成一个可以继续争论的问题，适合看完后和朋友聊聊「创造」究竟是什么。",
+    "firstStep": "打开作者的 YouTube 影片，先听旁白如何建立像素空间的设定，再观察画面怎样回应这个设定。",
+    "caveat": "影片中的宇宙、意识与所有可能影像属于作品的思想实验；具体生成工具未获得可靠的一手披露，字幕与地区播放条件未实测。",
+    "featured": false,
+    "collectionIds": [
+      "made-with-ai"
+    ],
+    "visual": "film",
+    "accent": "#baa9ef",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "收录作品并核对官方来源与 AI 参与依据"
+      }
+    ]
+  },
+  {
+    "id": "orbitswarm",
+    "title": "Orbitswarm",
+    "subtitle": "几颗星球，一场舰队拔河",
+    "description": "点击自己的星球，再向敌方或中立星球发出舰队；用数量、出兵时机和星球加成争夺整个星系。作者明确列出编程、美术和音乐分别使用的 AI 工具。",
+    "category": "game",
+    "creator": {
+      "name": "Focaccai",
+      "url": "https://focaccai.itch.io/"
+    },
+    "year": 2026,
+    "publishedAt": null,
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "free",
+      "login": "none",
+      "device": "desktop",
+      "mode": "play"
+    },
+    "aiRole": [
+      "code",
+      "visual",
+      "audio"
+    ],
+    "tools": [
+      "GitHub Copilot",
+      "Claude Sonnet 4.5",
+      "ChatGPT",
+      "Suno 4.5",
+      "LittleJS"
+    ],
+    "tags": [
+      "AI辅助制作",
+      "即时策略",
+      "太空",
+      "舰队"
+    ],
+    "links": {
+      "primary": "https://focaccai.itch.io/orbitswarm",
+      "source": "https://focaccai.itch.io/orbitswarm",
+      "code": null,
+      "process": "https://itch.io/jam/ai-generated-space-jam-/rate/4253347"
+    },
+    "evidence": [
+      {
+        "label": "作者作品与工具说明",
+        "url": "https://focaccai.itch.io/orbitswarm",
+        "note": "作者公开 HTML5 游戏入口，说明鼠标指挥和星球加成；列出 Copilot/Claude Sonnet 4.5 编程、ChatGPT 封面和 Suno 4.5 音乐。"
+      },
+      {
+        "label": "作者参赛记录",
+        "url": "https://itch.io/jam/ai-generated-space-jam-/rate/4253347",
+        "note": "同一作者在提交表中再次列出代码、封面与音乐工具，并链接原作。"
+      },
+      {
+        "label": "赛事日期",
+        "url": "https://itch.io/jam/ai-generated-space-jam-",
+        "note": "官方赛事于 2026 年 1–2 月举行并收录 Orbitswarm；仅据此记录年份，未推算作品的精确首发日期。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "核对作者或官方公开页面与所列制作说明；未实际运行或通关，制作归因依据发布者自述。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "规则容易看懂，却需要连续判断兵力与时机；制作归因也足够具体，可以沿资料回看开发选择。",
+    "firstStep": "点选自己的星球，再点目标发兵；滚轮或 1–4 调整发送比例。",
+    "caveat": "操作说明以鼠标和键盘为主，手机兼容性未确认。音乐使用 Suno，程序音效使用 ZzFX，不把后者写成独立 AI 音频模型。",
+    "featured": false,
+    "collectionIds": [
+      "made-with-ai"
+    ],
+    "visual": "orbit",
+    "accent": "#ddd8ff",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "新增档案并核对官方来源"
+      }
+    ]
+  },
+  {
+    "id": "neural-beatbox",
+    "title": "Neural Beatbox",
+    "subtitle": "用一声拍手，拼出一段意外的鼓点",
+    "description": "录下人声、拍手或身边的声音，AI 将录音分段并分配为鼓点，再持续生成节奏。作者还公开了音频分类和节奏生成的示例代码。",
+    "category": "music",
+    "creator": {
+      "name": "Qosmo / Nao Tokui 团队",
+      "url": "https://qosmo.jp/en/"
+    },
+    "year": 2019,
+    "publishedAt": null,
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "unknown",
+      "login": "unknown",
+      "device": "unknown",
+      "mode": "play"
+    },
+    "aiRole": [
+      "runtime"
+    ],
+    "tools": [
+      "音频分类模型",
+      "节奏生成模型"
+    ],
+    "tags": [
+      "人机合奏",
+      "声音采样",
+      "麦克风"
+    ],
+    "links": {
+      "primary": "https://neuralbeatbox.net/",
+      "source": "https://qosmo.jp/en/art/neural-beatbox",
+      "code": "https://github.com/QosmoInc/NeuralBeatbox_ML_Examples",
+      "process": "https://qosmo.jp/en/art/neural-beatbox"
+    },
+    "evidence": [
+      {
+        "label": "作者项目档案",
+        "url": "https://qosmo.jp/en/art/neural-beatbox",
+        "note": "档案列为 2019 年，并说明 2020 年扩展多人在线版本；记录声音分段、鼓点分配和节奏生成方法。"
+      },
+      {
+        "label": "官方网页与署名",
+        "url": "https://neuralbeatbox.net/",
+        "note": "页面列出开发、机器学习、设计与项目管理署名，并链接公开示例代码。"
+      },
+      {
+        "label": "机器学习示例仓库",
+        "url": "https://github.com/QosmoInc/NeuralBeatbox_ML_Examples",
+        "note": "提供音频分类和节奏生成示例，不是完整网站的源码仓库。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "已核对官方项目档案、署名与示例仓库；未授予麦克风权限、录音或实际试听。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "不必先学会乐器，自己的声音就能成为鼓机素材；也能看到 AI 分类带来的有趣偏差。",
+    "firstStep": "先阅读页面的录音提示；愿意使用麦克风时，录一小段拍手或口技声音。",
+    "caveat": "采集自己的声音需要麦克风权限。源码入口仅包含模型示例；网页实时运行情况与设备兼容性未实测。",
+    "featured": false,
+    "collectionIds": [
+      "five-minutes",
+      "open-source"
+    ],
+    "visual": "sound",
+    "accent": "#ffd99b",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "作为经典音乐交互收录，注明模型示例源码范围"
+      }
+    ]
+  },
+  {
+    "id": "jailbird",
+    "title": "JAILBIRD",
+    "subtitle": "一只鸡进入监狱，却让故事走向了温柔",
+    "description": "Andrew Salter 把视角交给一只进入人类监狱的鸡，用实验纪录片的形式讲述动物和照料者之间的关系。作者说明，影片从手绘分镜出发，逐步描述给 AI、调整并剪辑；除结尾绘画外，视觉画面由 AI 生成。",
+    "category": "film",
+    "creator": {
+      "name": "Andrew Salter",
+      "url": "https://andrewtsalter.com/about-1"
+    },
+    "year": 2025,
+    "publishedAt": null,
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "unknown",
+      "login": "unknown",
+      "device": "unknown",
+      "mode": "watch"
+    },
+    "aiRole": [
+      "visual"
+    ],
+    "tools": [],
+    "tags": [
+      "动物视角",
+      "实验纪录片",
+      "分镜",
+      "AI辅助制作"
+    ],
+    "links": {
+      "primary": "https://andrewtsalter.com/jailbird",
+      "source": "https://andrewtsalter.com/jailbird",
+      "code": null,
+      "process": "https://andrewtsalter.com/jailbird"
+    },
+    "evidence": [
+      {
+        "label": "作者作品与制作说明",
+        "url": "https://andrewtsalter.com/jailbird",
+        "note": "页面标注 EXPERIMENTAL AI DOCUMENTARY、04/25，并说明分镜到 AI 影像的流程；仅有月份，未填写精确发布日期。"
+      },
+      {
+        "label": "Runway 官方展映库",
+        "url": "https://aif.runwayml.com/screening-room",
+        "note": "列出 Andrew Salter、2:49 片长和 2025 Gold。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "已核对作者或官方展映页面、作品归属及 AI 参与依据；未完整播放影片，未验证各地区的登录、付费及设备限制。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "视角足够奇特，故事又有清楚的情感落点；作者保留的分镜让人能追溯一个点子如何变成短片。",
+    "firstStep": "进入作者的 JAILBIRD 页面观看影片，再向下查看 STORYBOARD ILLUSTRATIONS 中的分镜。",
+    "caveat": "作者称其为实验 AI 纪录片，生成画面不能当成现场实拍记录；页面没有列出具体模型，播放器与字幕可用性未实测。",
+    "featured": false,
+    "collectionIds": [
+      "five-minutes",
+      "made-with-ai"
+    ],
+    "visual": "film",
+    "accent": "#e4b98b",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "收录作品并核对官方来源与 AI 参与依据"
+      }
+    ]
+  },
+  {
+    "id": "oasis",
+    "title": "Oasis",
+    "subtitle": "往前走，下一帧世界才开始生成",
+    "description": "Decart 与 Etched 的交互式世界模型演示。键盘操作会成为模型输入，后续画面由生成模型持续预测；它展示了不依赖常规游戏引擎逐帧渲染的另一种交互方式。",
+    "category": "interactive",
+    "creator": {
+      "name": "Decart / Etched",
+      "url": "https://oasis-model.github.io/"
+    },
+    "year": 2024,
+    "publishedAt": "2024-10-31",
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "unknown",
+      "login": "unknown",
+      "device": "desktop",
+      "mode": "demo"
+    },
+    "aiRole": [
+      "runtime"
+    ],
+    "tools": [
+      "Oasis"
+    ],
+    "tags": [
+      "世界模型",
+      "实时生成",
+      "交互演示"
+    ],
+    "links": {
+      "primary": "https://oasis.decart.ai/",
+      "source": "https://oasis-model.github.io/",
+      "code": null,
+      "process": "https://oasis-model.github.io/"
+    },
+    "evidence": [
+      {
+        "label": "官方项目与日期",
+        "url": "https://oasis-model.github.io/",
+        "note": "官方联合项目页日期为 2024-10-31，解释键盘条件输入、实时生成和模型结构，并链接在线演示。"
+      },
+      {
+        "label": "官方演示入口",
+        "url": "https://oasis.decart.ai/",
+        "note": "官方项目链接的演示地址跳转至欢迎页面；本次仅核对入口，未运行体验或确认账号、费用要求。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "核对作者或官方公开页面与所列制作说明；未实际运行或通关，制作归因依据发布者自述。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "它让“模型生成一段视频”变成“你可以用输入影响下一刻”，也能直观看到生成世界与传统游戏在稳定性上的差别。",
+    "firstStep": "从官方演示入口开始，按页面提示进入体验；也可先看项目页上的演示片段。",
+    "caveat": "这是研究演示，场景连续性与规则可能不稳定。未确认当前费用和账号条件；历史官方源码入口本次返回 404，因此没有列为可用源码。",
+    "featured": false,
+    "collectionIds": [],
+    "visual": "blocks",
+    "accent": "#e1ecc7",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "新增档案并核对官方来源"
+      }
+    ]
+  },
+  {
+    "id": "catrooms",
+    "title": "CATROOMS",
+    "subtitle": "你的猫走进了墙里，于是你跟了上去",
+    "description": "跟着 Mango 穿过熟悉又不断变样的公寓，走进越来越不正常的走廊。这个带旁白的第一人称短篇，作者估计约六至十分钟；公开了代码、模型、图像、配音与音乐各自的 AI 制作环节。",
+    "category": "game",
+    "creator": {
+      "name": "Focaccai",
+      "url": "https://focaccai.itch.io/"
+    },
+    "year": 2026,
+    "publishedAt": "2026-10-30",
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "free",
+      "login": "none",
+      "device": "both",
+      "mode": "play"
+    },
+    "aiRole": [
+      "code",
+      "visual",
+      "audio"
+    ],
+    "tools": [
+      "Claude",
+      "ChatGPT",
+      "ElevenLabs",
+      "Suno",
+      "LittleJS"
+    ],
+    "tags": [
+      "AI辅助制作",
+      "猫",
+      "空间叙事",
+      "悬疑"
+    ],
+    "links": {
+      "primary": "https://focaccai.itch.io/catrooms",
+      "source": "https://focaccai.itch.io/catrooms",
+      "code": null,
+      "process": "https://itch.io/jam/ai-jam-5/rate/5261946"
+    },
+    "evidence": [
+      {
+        "label": "作者作品与发布记录",
+        "url": "https://focaccai.itch.io/catrooms",
+        "note": "原作页显示 2026-10-30 发布，说明约六至十分钟的第一人称探索、键鼠和触屏操作，并勾选代码/画面/声音的 AI 披露。"
+      },
+      {
+        "label": "作者制作工具披露",
+        "url": "https://itch.io/jam/ai-jam-5/rate/5261946",
+        "note": "参赛说明列出 Claude 用于代码、3D 模型、剧本、纹理；ChatGPT 用于图片和部分纹理；ElevenLabs 用于配音与部分声音；Suno 用于音乐。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "核对作者或官方公开页面与所列制作说明；未实际运行或通关，制作归因依据发布者自述。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "用“跟着猫走”这个直观目标把人带入异常空间，是短篇氛围设计与多种 AI 工具配合的具体例子。",
+    "firstStep": "点击 Run game；电脑用 WASD 移动、鼠标看向四周，F 或右键使用手电。",
+    "caveat": "包含恐怖氛围和惊吓；第一人称视角可能让部分玩家不适。作者提供触屏操作，但本站未实测不同设备的控制与流畅度。",
+    "featured": false,
+    "collectionIds": [
+      "made-with-ai"
+    ],
+    "visual": "world",
+    "accent": "#c8d8f0",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "新增档案并核对官方来源"
+      }
+    ]
+  },
+  {
+    "id": "a-face-only-a-mother-could-love",
+    "title": "A Face Only A Mother Could Love",
+    "subtitle": "在巴黎，给一个被躲开的人留一支舞",
+    "description": "Robert Gaudette 讲述 Marcel 在巴黎等待理解与陪伴的故事。作者在制作声明中表示，视觉使用生成式 AI，旁白和对白使用 ElevenLabs，手风琴配乐使用 Suno；影片获得 2026 Runway AI Festival Grand Prix。",
+    "category": "film",
+    "creator": {
+      "name": "Robert Gaudette",
+      "url": "https://robertgaudette.com/"
+    },
+    "year": 2026,
+    "publishedAt": "2026-04-23",
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "unknown",
+      "login": "unknown",
+      "device": "unknown",
+      "mode": "watch"
+    },
+    "aiRole": [
+      "visual",
+      "audio"
+    ],
+    "tools": [
+      "ElevenLabs",
+      "Suno"
+    ],
+    "tags": [
+      "巴黎",
+      "人物故事",
+      "AI配音",
+      "AI配乐"
+    ],
+    "links": {
+      "primary": "https://www.youtube.com/watch?v=wytfCS-N8Sk",
+      "source": "https://filmfreeway.com/AFaceOnlyAMotherCouldLove",
+      "code": null,
+      "process": "https://filmfreeway.com/AFaceOnlyAMotherCouldLove"
+    },
+    "evidence": [
+      {
+        "label": "作者频道的影片与制作说明",
+        "url": "https://www.youtube.com/watch?v=wytfCS-N8Sk",
+        "note": "作者频道发布原版影片；索引元数据显示 2026-04-23，并附视觉、旁白和配乐的 AI 制作自述。"
+      },
+      {
+        "label": "作者提交的 FilmFreeway 项目页",
+        "url": "https://filmfreeway.com/AFaceOnlyAMotherCouldLove",
+        "note": "列出 Robert Gaudette 的导演、编剧、制片署名、7:50 片长和完成日期；导演声明披露 AI 角色设定、ElevenLabs 语音与 Suno 配乐。"
+      },
+      {
+        "label": "Runway 2026 官方获奖页",
+        "url": "https://aif.runwayml.com/ja",
+        "note": "官方列出作品、作者和 Grand Prix，独立核对获奖归属。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "已核对作者或官方展映页面、作品归属及 AI 参与依据；未完整播放影片，未验证各地区的登录、付费及设备限制。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "人物的一支独舞和一段手风琴旋律构成故事支点，制作说明又能帮助观众区分作者的故事设计与 AI 生成的视听部分。",
+    "firstStep": "打开 Robert Gaudette 频道的原版影片，观看后再读 FilmFreeway 的 Director Statement，了解角色一致性、配音和音乐怎样完成。",
+    "caveat": "这是虚构人物故事，工具与生成范围来自作者自述；未将生成视听内容表述为 AI 自动编剧，也未实测字幕、地区或登录限制。",
+    "featured": false,
+    "collectionIds": [
+      "made-with-ai"
+    ],
+    "visual": "film",
+    "accent": "#dbbca0",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "收录作品并核对官方来源与 AI 参与依据"
+      }
+    ]
+  },
+  {
+    "id": "haldane-4",
+    "title": "HALDANE-4",
+    "subtitle": "在字符构成的深海里，独自向下",
+    "description": "一段发生在南极冰架下的短篇探索：终端式界面和 ASCII 视觉将环境压缩为字符、光线与声音。Vibe Jam 2026 官方目录将其列为 @denisbondare 的 Cursor 辅助制作作品。",
+    "category": "game",
+    "creator": {
+      "name": "@denisbondare",
+      "url": "https://x.com/denisbondare"
+    },
+    "year": 2026,
+    "publishedAt": null,
+    "addedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-20",
+    "access": {
+      "cost": "unknown",
+      "login": "unknown",
+      "device": "desktop",
+      "mode": "play"
+    },
+    "aiRole": [
+      "code"
+    ],
+    "tools": [
+      "Cursor"
+    ],
+    "tags": [
+      "AI辅助制作",
+      "ASCII",
+      "探索",
+      "悬疑"
+    ],
+    "links": {
+      "primary": "https://haldane4.denisbondare.com/",
+      "source": "https://vibejam.com/",
+      "code": null,
+      "process": "https://vibejam.com/"
+    },
+    "evidence": [
+      {
+        "label": "作品入口与操作说明",
+        "url": "https://haldane4.denisbondare.com/",
+        "note": "官方页面写明 WASD 推进、鼠标旋转、空格控制灯光，建议耳机与桌面设备。"
+      },
+      {
+        "label": "官方赛事记录",
+        "url": "https://vibejam.com/",
+        "note": "赛事官方目录的索引记录列出 HALDANE-4、@denisbondare、南极冰下 ASCII 叙事和 Cursor；未据此扩展为未公开的模型或素材归因。"
+      }
+    ],
+    "verification": {
+      "level": "source-reviewed",
+      "note": "核对作者或官方公开页面与所列制作说明；未实际运行或通关，制作归因依据发布者自述。",
+      "checkedAt": "2026-11-20"
+    },
+    "why": "很少的视觉元素就能构成清晰的空间感，适合观察 AI 辅助编程如何服务一个明确的美术想法。",
+    "firstStep": "点击初始化终端，使用 WASD 和鼠标探索；空格控制灯光。",
+    "caveat": "包含黑暗、孤立感与惊吓氛围。原站建议电脑和耳机；当前费用与账号要求未确认，未实际通关。",
+    "featured": false,
+    "collectionIds": [
+      "made-with-ai"
+    ],
+    "visual": "orbit",
+    "accent": "#cfdcff",
+    "timeline": [
+      {
+        "date": "2026-11-20",
+        "kind": "added",
+        "text": "新增档案并核对官方来源"
+      }
+    ]
+  },
+  {
     "id": "oh-peppers",
     "title": "Oh, Peppers!",
     "subtitle": "一颗辣椒，逃离三十间厨房",
